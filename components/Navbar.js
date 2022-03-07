@@ -1,81 +1,75 @@
-import React from 'react'
+import React from "react";
 
 function Navbar() {
-  return (
+	return (
 		<header>
-			<div className='header-area'>
-				<div id='sticky-header' className='main-header-area'>
+			<div id='navbar' className='navbar-area'>
+				<div className='main-nav'>
 					<div className='container-fluid'>
-						<div className='header_bottom_border'>
-							<div className='row align-items-center'>
-								<div className='col-xl-3 col-lg-2'>
-									<div className='logo'>
-										<a href='index.html'>
-											<img
-												src='img/xlogo.png.pagespeed.ic.T58t519xIB.png'
-												alt=''
-											/>
+						<nav className='navbar navbar-expand-md navbar-light'>
+							<a className='navbar-brand' href='index.htm'>
+								<img
+									src='images/white-logo.png'
+									className='main-logo'
+									alt='logo'
+								/>
+								<img
+									src='images/black-logo.png'
+									className='optional-logo'
+									alt='logo'
+								/>
+							</a>
+							<button
+								className='navbar-toggler navbar-toggler-right collapsed'
+								type='button'
+								data-toggle='collapse'
+								data-target='#navbarSupportedContent'
+								aria-controls='navbarSupportedContent'
+								aria-expanded='false'
+								aria-label='Toggle navigation'>
+								<span className='icon-bar top-bar'></span>
+								<span className='icon-bar middle-bar'></span>
+								<span className='icon-bar bottom-bar'></span>
+							</button>
+							<div
+								className='collapse navbar-collapse'
+								id='navbarSupportedContent'>
+								<ul className='navbar-nav'>
+									<li className='nav-item'>
+										<a className='nav-link' href='index.htm#'>
+											Home <i className='fas fa-chevron-down'></i>
 										</a>
-									</div>
-								</div>
-								<div className='col-xl-6 col-lg-7'>
-									<div className='main-menu d-none d-lg-block'>
-										<nav>
-											<ul id='navigation'>
-												<li>
-													<a className='active' href='index.html'>
-														home
-													</a>
-												</li>
-												<li>
-													<a href='Projects.html'>Projects</a>
-												</li>
-												<li>
-													<a href='#'>
-														pages <i className='ti-angle-down'></i>
-													</a>
-													<ul className='submenu'>
-														<li>
-															<a href='about.html'>about</a>
-														</li>
-														<li>
-															<a href='project_details.html'>project details</a>
-														</li>
-														<li>
-															<a href='elements.html'>elements</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href='#'>
-														blog <i className='ti-angle-down'></i>
-													</a>
-													<ul className='submenu'>
-														<li>
-															<a href='blog.html'>blog</a>
-														</li>
-														<li>
-															<a href='single-blog.html'>single-blog</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href='contact.html'>Contact</a>
-												</li>
-											</ul>
-										</nav>
-									</div>
-								</div>
-								<div className='col-xl-3 col-lg-3 d-none d-lg-block'>
-									<div className='say_hello'>
-										<a href='#'>Say Hello</a>
-									</div>
-								</div>
-								<div className='col-12'>
-									<div className='mobile_menu d-block d-lg-none'></div>
-								</div>
+									</li>
+									<li className='nav-item'>
+										<a className='nav-link' href='index.htm#'>
+											About Us <i className='fas fa-chevron-down'></i>
+										</a>
+									</li>
+									<li className='nav-item'>
+										<a className='nav-link' href='index.htm#'>
+											Projects <i className='fas fa-chevron-down'></i>
+										</a>
+										<ul className='dropdown-menu'>
+											<li className='nav-item'>
+												<a className='nav-link' href='projects.html'>
+													Projects
+												</a>
+											</li>
+											<li className='nav-item'>
+												<a className='nav-link' href='projects-details.html'>
+													Projects Details
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li className='nav-item'>
+										<a className='nav-link' href='contact.html'>
+											Contact
+										</a>
+									</li>
+								</ul>
 							</div>
-						</div>
+						</nav>
 					</div>
 				</div>
 			</div>
@@ -83,4 +77,4 @@ function Navbar() {
 	);
 }
 
-export default Navbar
+export default Navbar;

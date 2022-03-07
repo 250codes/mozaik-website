@@ -1,11 +1,11 @@
 import Head from "../components/Head";
 import Image from "next/image";
-
+import HeroSection from "../components/HeroSection";
 export default function Home() {
 	return (
 		<div>
-			<Head title="MOZAIK" />
-			<h1>Welcome to next</h1>
+			<Head title='MOZAIK' />
+			<HeroSection />
 		</div>
 	);
 }
