@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import log from "../images/logo.png";
 function Navbar() {
 	return (
 		<header>
@@ -8,16 +9,14 @@ function Navbar() {
 					<div className='container-fluid'>
 						<nav className='navbar navbar-expand-md navbar-light'>
 							<a className='navbar-brand' href='index.htm'>
-								<img
-									src='images/white-logo.png'
+								<Image
+									src={log}
+									alt='logo'
+									width='100'
+									height='64'
 									className='main-logo'
-									alt='logo'
 								/>
-								<img
-									src='images/black-logo.png'
-									className='optional-logo'
-									alt='logo'
-								/>
+								
 							</a>
 							<button
 								className='navbar-toggler navbar-toggler-right collapsed'
