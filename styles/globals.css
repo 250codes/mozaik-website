@@ -14,3 +14,17 @@ a {
 * {
   box-sizing: border-box;
 }
+.my-nav{
+position: absolute;
+z-index: 10;
+width: 100%;
+}
+
+.carousel-item {
+  height: 100vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
