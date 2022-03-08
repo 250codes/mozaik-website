@@ -40,7 +40,7 @@ function Navbar() {
 										</a>
 									</li>
 									<li className='nav-item'>
-										<a className='nav-link' href='index.htm#'>
+										<a className='nav-link' href='about'>
 											About Us <i className='fas fa-chevron-down'></i>
 										</a>
 									</li>
