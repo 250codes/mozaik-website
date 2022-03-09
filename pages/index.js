@@ -8,8 +8,8 @@ export default function Home() {
 		<div>
 			<Head title='MOZAIK' />
 			<HeroSection />
-			<Testimonial />
 			<Projects />
+			<Testimonial />
 		</div>
 	);
 }
