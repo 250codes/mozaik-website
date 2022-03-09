@@ -1,9 +1,31 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import Image from "next/image";
 import log from "../images/logo.png";
 function Navbar() {
+	//navbar scroll when active state
+	const [navbar, setNavbar] = useState(false);
+	//navbar scroll changeBackground function
+	const changeBackground = () => {
+		console.log(window.scrollY);
+		if (window.scrollY > 100) {
+			setNavbar(true);
+		} else {
+			setNavbar(false);
+		}
+	};
+	 useEffect(() => {
+			changeBackground();
+			// adding the event when scroll change background
+			window.addEventListener("scroll", changeBackground);
+		});
 	return (
-		<header>
+		<header
+			className={
+				navbar
+					? "fixed-top d-flex align-items-center header-scrolled"
+					: "'fixed-top d-flex align-items-center header-transparent'"
+			}
+			>
 			<div id='navbar' className='navbar-area'>
 				<div className='main-nav'>
 					<div className='container-fluid'>
@@ -16,7 +38,6 @@ function Navbar() {
 									height='64'
 									className='main-logo'
 								/>
-								
 							</a>
 							<button
 								className='navbar-toggler navbar-toggler-right collapsed'
@@ -34,19 +55,19 @@ function Navbar() {
 								className='collapse navbar-collapse'
 								id='navbarSupportedContent'>
 								<ul className='navbar-nav'>
-									<li className='nav-item'>
-										<a className='nav-link' href='index.htm#'>
-											Home <i className='fas fa-chevron-down'></i>
+									<li className='nav-item' >
+										<a className='nav-link' href='/index'>
+											Home 
 										</a>
 									</li>
 									<li className='nav-item'>
 										<a className='nav-link' href='about'>
-											About Us <i className='fas fa-chevron-down'></i>
+											About Us 
 										</a>
 									</li>
 									<li className='nav-item'>
 										<a className='nav-link' href='index.htm#'>
-											Projects <i className='fas fa-chevron-down'></i>
+											Projects 
 										</a>
 										<ul className='dropdown-menu'>
 											<li className='nav-item'>
@@ -62,7 +83,7 @@ function Navbar() {
 										</ul>
 									</li>
 									<li className='nav-item'>
-										<a className='nav-link' href='contact.html'>
+										<a className='nav-link' href='contact'>
 											Contact
 										</a>
 									</li>

@@ -3935,6 +3935,7 @@ input[type="submit"].btn-block {
 	flex-grow: 1;
 	-webkit-align-items: center;
 	align-items: center;
+	/* background-color: white; */
 }
 .navbar-toggler {
 	padding: 0.25rem 0.75rem;
@@ -9575,7 +9576,7 @@ img {
 }
 .main-nav {
 	background-color: transparent;
-	padding: 15px 59px;
+	padding: 5px 59px;
 }
 .main-nav .navbar {
 	padding: 0;
@@ -9596,7 +9597,7 @@ img {
 .main-nav .navbar .navbar-nav .nav-item a {
 	font-size: 18px;
 	font-weight: 600;
-	color: #fff;
+	color: #000;
 	text-transform: capitalize;
 	padding: 0;
 	margin-left: 13px;
