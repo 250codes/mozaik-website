@@ -142,6 +142,9 @@
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
+.team{
+  margin-bottom: 40px;
+}
 .team .team-member .member-img {
   border-radius: 8px;
   overflow: hidden;
