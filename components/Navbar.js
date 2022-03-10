@@ -30,7 +30,7 @@ function Navbar() {
 				<div className='main-nav'>
 					<div className='container-fluid'>
 						<nav className='navbar navbar-expand-md navbar-light'>
-							<a className='navbar-brand' href='index.htm'>
+							<a className='navbar-brand' href='/'>
 								<Image
 									src={log}
 									alt='logo'
@@ -56,7 +56,7 @@ function Navbar() {
 								id='navbarSupportedContent'>
 								<ul className='navbar-nav'>
 									<li className='nav-item' >
-										<a className='nav-link' href='/index'>
+										<a className='nav-link' href='/'>
 											Home 
 										</a>
 									</li>
