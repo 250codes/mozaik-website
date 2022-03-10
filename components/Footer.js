@@ -50,19 +50,19 @@ export default function Footer() {
 							<h3>Services</h3>
 							<ul className='footer-services-list'>
 								<li>
-									<a href='service-details.html'>Product Engineering</a>
+									<a href='service-details.html'>Consultancy</a>
 								</li>
 								<li>
-									<a href='service-details.html'>UX/UI Design</a>
+									<a href='service-details.html'>Mood Boards</a>
 								</li>
 								<li>
-									<a href='service-details.html'>Big Data Analysis</a>
+									<a href='service-details.html'>Project management</a>
 								</li>
 								<li>
-									<a href='service-details.html'>Desktop Applications</a>
+									<a href='service-details.html'>Budget Planning</a>
 								</li>
 								<li>
-									<a href='service-details.html'>Mobile Applications</a>
+									<a href='service-details.html'>Interior setup</a>
 								</li>
 							</ul>
 						</div>
@@ -72,19 +72,16 @@ export default function Footer() {
 							<h3>Quick Links</h3>
 							<ul className='quick-links-list'>
 								<li>
-									<a href='about.html'>About Us</a>
+									<a href='about.html'>Home</a>
 								</li>
 								<li>
-									<a href='blog.html'>Blog</a>
+									<a href='blog.html'>About</a>
 								</li>
 								<li>
 									<a href='contact.html'>Contact</a>
 								</li>
 								<li>
-									<a href='services.html'>Services</a>
-								</li>
-								<li>
-									<a href='pricing.html'>Pricing</a>
+									<a href='services.html'>Projects</a>
 								</li>
 							</ul>
 						</div>
@@ -94,8 +91,8 @@ export default function Footer() {
 							<h3>Contacts</h3>
 							<ul className='footer-contact-list'>
 								<li>
-									<span>Address:</span>2750 Quadra Street <br />
-									Victoria, Canada
+									<span>Address:</span>KK12 <br />
+									Kigali, Rwanda
 								</li>
 								<li>
 									<span>Email:</span>
@@ -103,14 +100,11 @@ export default function Footer() {
 										href='cdn-cgi/l/email-protection.html'
 										className='__cf_email__'
 										data-cfemail='640605160d100b0a240309050d084a070b09'>
-										[email&#160;protected]
+										mozaikdeveloper@gmail.com
 									</a>
 								</li>
 								<li>
-									<span>Phone:</span>+44 587 154756
-								</li>
-								<li>
-									<span>Fax:</span>+44 785 4578964
+									<span>Phone:</span>+250 788 224433
 								</li>
 							</ul>
 						</div>

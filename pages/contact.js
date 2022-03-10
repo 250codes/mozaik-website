@@ -11,7 +11,6 @@ function contact() {
 			<section className='contact-area ptb-110'>
 				<div className='container'>
 					<div className='section-title'>
-						<span>Message Us</span>
 						<h2>Drop us Message for any Query</h2>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
