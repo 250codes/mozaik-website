@@ -4,7 +4,6 @@ import Script from "next/script";
 function HeroSection() {
 	return (
 		<>
-			
 			<div
 				id='carouselExampleIndicators'
 				className='carousel slide my-carousel my-carousel'
@@ -28,13 +27,13 @@ function HeroSection() {
 						className='carousel-item '
 						style={{
 							backgroundImage:
-								"url('https://images.pexels.com/photos/6970049/pexels-photo-6970049.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-6970049.jpg&fm=jpg')",
+								"url('https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')",
 						}}></div>
 					<div
 						className='carousel-item '
 						style={{
 							backgroundImage:
-								"url('https://images.pexels.com/photos/6970049/pexels-photo-6970049.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-6970049.jpg&fm=jpg')",
+								"url('https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')",
 						}}></div>
 				</div>
 				<a

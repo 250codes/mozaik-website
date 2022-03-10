@@ -1,17 +1,20 @@
 import React from "react";
 import Image from "next/image";
 import log from "../images/logo.png";
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
 	return (
-		<footer className='footer-area'>
+		<footer
+			className='footer-area'
+			style={{ boxShadow: "0px 0px 10px rgba(0,0,0,0.1)" }}>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-lg-3 col-md-6 col-sm-6'>
 						<div className='single-footer-widget'>
 							<div className='logo'>
 								<a href='index.htm'>
-									<Image src={log} width='100%' height='100%' alt='image' />
+									<Image src={log} width='100px' height='100px' alt='image' />
 								</a>
 								<p>
 									Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
@@ -21,22 +24,22 @@ export default function Footer() {
 							<ul className='social'>
 								<li>
 									<a target='_blank' href='index.htm#'>
-										<i className='flaticon-facebook-letter-logo'></i>
+										<FaFacebookF style={{ color: "white" }} />
 									</a>
 								</li>
 								<li>
 									<a target='_blank' href='index.htm#'>
-										<i className='flaticon-twitter'></i>
+										<FaTwitter style={{ color: "white" }} />
 									</a>
 								</li>
 								<li>
 									<a target='_blank' href='index.htm#'>
-										<i className='flaticon-instagram-logo'></i>
+										<FaInstagram style={{ color: "white" }} />
 									</a>
 								</li>
 								<li>
 									<a target='_blank' href='index.htm#'>
-										<i className='flaticon-youtube-play-button'></i>
+										<FaYoutube style={{ color: "white" }} />
 									</a>
 								</li>
 							</ul>
@@ -118,12 +121,7 @@ export default function Footer() {
 				<div className='container'>
 					<div className='row align-items-center'>
 						<div className='col-lg-6 col-md-6 col-sm-6'>
-							<p>
-								<a href='index' target='_blank'>
-									Mozaik
-								</a>
-								.
-							</p>
+							<p>Mozaik © {new Date().getFullYear()} All rights reserved</p>
 						</div>
 						<div className='col-lg-6 col-md-6 col-sm-6'>
 							<ul>
@@ -137,12 +135,6 @@ export default function Footer() {
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<div className='lines'>
-				<div className='line'></div>
-				<div className='line'></div>
-				<div className='line'></div>
 			</div>
 		</footer>
 	);

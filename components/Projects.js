@@ -1,7 +1,7 @@
-import React from 'react'
-
+import React from "react";
+import Image from "next/image";
 function Projects() {
-  return (
+	return (
 		<section className='services-area bg-f2f6f9 ptb-110'>
 			<div className='container'>
 				<div className='section-title'>
@@ -11,127 +11,119 @@ function Projects() {
 						eiusmod tempor incididunt ut labore et dolore magna aliqua.
 					</p>
 				</div>
-				<div className='row'>
-					<div className='col-lg-4 col-sm-6'>
-						<div className='single-services-box'>
-							<div className='icon'>
-								<i className='flaticon-income'></i>
-							</div>
-							<h3>
-								<a href='service-details.html'>Data Analysts</a>
-							</h3>
-							<p>
-								It is a long established fact that a reader will be distracted
-								by the readable content of a page when looking at its layout.
-							</p>
-						</div>
+				<div className='row text-center text-lg-start'>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/pWkk7iiCoDM/400x300'
+								alt=''
+							/>
+						</a>
 					</div>
-					<div className='col-lg-4 col-sm-6'>
-						<div className='single-services-box'>
-							<div className='icon'>
-								<i className='flaticon-automatic'></i>
-							</div>
-							<h3>
-								<a href='service-details.html'>Automatic Optimization</a>
-							</h3>
-							<p>
-								It is a long established fact that a reader will be distracted
-								by the readable content of a page when looking at its layout.
-							</p>
-						</div>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/aob0ukAYfuI/400x300'
+								alt=''
+							/>
+						</a>
 					</div>
-					<div className='col-lg-4 col-sm-6'>
-						<div className='single-services-box'>
-							<div className='icon'>
-								<i className='flaticon-locked'></i>
-							</div>
-							<h3>
-								<a href='service-details.html'>Security &amp; Surveillance</a>
-							</h3>
-							<p>
-								It is a long established fact that a reader will be distracted
-								by the readable content of a page when looking at its layout.
-							</p>
-						</div>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/EUfxH-pze7s/400x300'
+								alt=''
+							/>
+						</a>
 					</div>
-					<div className='col-lg-4 col-sm-6'>
-						<div className='single-services-box'>
-							<div className='icon'>
-								<i className='flaticon-molecular'></i>
-							</div>
-							<h3>
-								<a href='service-details.html'>
-									Healthcare &amp; Manufacturing
-								</a>
-							</h3>
-							<p>
-								It is a long established fact that a reader will be distracted
-								by the readable content of a page when looking at its layout.
-							</p>
-						</div>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/M185_qYH8vg/400x300'
+								alt=''
+							/>
+						</a>
 					</div>
-					<div className='col-lg-4 col-sm-6'>
-						<div className='single-services-box'>
-							<div className='icon'>
-								<i className='flaticon-gear'></i>
-							</div>
-							<h3>
-								<a href='service-details.html'>Software Engineers</a>
-							</h3>
-							<p>
-								It is a long established fact that a reader will be distracted
-								by the readable content of a page when looking at its layout.
-							</p>
-						</div>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/sesveuG_rNo/400x300'
+								alt=''
+							/>
+						</a>
 					</div>
-					<div className='col-lg-4 col-sm-6'>
-						<div className='single-services-box'>
-							<div className='icon'>
-								<i className='flaticon-ceo'></i>
-							</div>
-							<h3>
-								<a href='service-details.html'>IT Professionals</a>
-							</h3>
-							<p>
-								It is a long established fact that a reader will be distracted
-								by the readable content of a page when looking at its layout.
-							</p>
-						</div>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/AvhMzHwiE_0/400x300'
+								alt=''
+							/>
+						</a>
+					</div>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/2gYsZUmockw/400x300'
+								alt=''
+							/>
+						</a>
+					</div>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/EMSDtjVHdQ8/400x300'
+								alt=''
+							/>
+						</a>
+					</div>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/8mUEy0ABdNE/400x300'
+								alt=''
+							/>
+						</a>
+					</div>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/G9Rfc1qccH4/400x300'
+								alt=''
+							/>
+						</a>
+					</div>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/aJeH0KcFkuc/400x300'
+								alt=''
+							/>
+						</a>
+					</div>
+					<div className='col-lg-3 col-md-4 col-6'>
+						<a href='#' className='d-block mb-4 h-100'>
+							<img
+								className='img-fluid img-thumbnail'
+								src='https://source.unsplash.com/p2TQ-3Bh3Oo/400x300'
+								alt=''
+							/>
+						</a>
 					</div>
 				</div>
-			</div>
-			<div className='shape-img2'>
-				<img src='images/shape/shape2.svg' alt='image' />
-			</div>
-			<div className='shape-img3'>
-				<img src='images/shape/shape3.png' alt='image' />
-			</div>
-			<div className='shape-img4'>
-				<img src='images/shape/shape4.svg' alt='image' />
-			</div>
-			<div className='shape-img5'>
-				<img src='images/shape/shape5.svg' alt='image' />
-			</div>
-			<div className='shape-img3'>
-				<img src='images/shape/shape3.png' alt='image' />
-			</div>
-			<div className='dot-shape1'>
-				<img src='images/shape/dot1.png' alt='image' />
-			</div>
-			<div className='dot-shape2'>
-				<img src='images/shape/dot3.png' alt='image' />
-			</div>
-			<div className='dot-shape2'>
-				<img src='images/shape/dot4.png' alt='image' />
-			</div>
-			<div className='dot-shape2'>
-				<img src='images/shape/dot5.png' alt='image' />
-			</div>
-			<div className='dot-shape2'>
-				<img src='images/shape/dot6.png' alt='image' />
 			</div>
 		</section>
 	);
 }
 
-export default Projects
+export default Projects;

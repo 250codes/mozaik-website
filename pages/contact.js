@@ -2,10 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Head from "../components/Head";
 import image from "../images/contact.png";
+import PageIntro from "../components/PageIntro";
 function contact() {
 	return (
 		<div>
 			<Head title={"Contact Us!"} />
+			<PageIntro name="CONTACT US"/>
 			<section className='contact-area ptb-110'>
 				<div className='container'>
 					<div className='section-title'>

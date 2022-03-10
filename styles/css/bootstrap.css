@@ -14220,7 +14220,7 @@ blockquote:before {
 	position: relative;
 	z-index: 1;
 	padding-top: 100px;
-	background-color: #15171a;
+	background-color: #ffff;
 }
 .single-footer-widget {
 	margin-bottom: 30px;
@@ -14258,7 +14258,7 @@ blockquote:before {
 	background-color: #212529;
 	line-height: 35px;
 	border-radius: 50%;
-	color: #fff;
+
 	text-align: center;
 }
 .single-footer-widget .social li a i:before {
@@ -14266,11 +14266,10 @@ blockquote:before {
 }
 .single-footer-widget .social li a:hover {
 	background-color: #ff4800;
-	color: #fff;
 }
 .single-footer-widget h3 {
 	margin-bottom: 23px;
-	color: #fff;
+
 	position: relative;
 	padding-bottom: 6px;
 	font-size: 23px;
@@ -14297,7 +14296,7 @@ blockquote:before {
 }
 .single-footer-widget .footer-services-list li a {
 	display: inline-block;
-	color: #fff;
+	color: black;
 }
 .single-footer-widget .footer-services-list li a:hover {
 	color: #ff4800;
@@ -14312,12 +14311,12 @@ blockquote:before {
 }
 .single-footer-widget .quick-links-list li {
 	margin-bottom: 12px;
-	color: #fff;
+	color:black;
 	font-size: 14px;
 }
 .single-footer-widget .quick-links-list li a {
 	display: inline-block;
-	color: #fff;
+	color:black;
 }
 .single-footer-widget .quick-links-list li a:hover {
 	color: #ff4800;
@@ -14332,13 +14331,13 @@ blockquote:before {
 }
 .single-footer-widget .footer-contact-list li {
 	margin-bottom: 12px;
-	color: #fff;
+	color: black;
 	font-size: 14px;
 	line-height: 1.7;
 }
 .single-footer-widget .footer-contact-list li a {
 	display: inline-block;
-	color: #fff;
+	color: black;
 }
 .single-footer-widget .footer-contact-list li a:hover {
 	color: #ff4800;
