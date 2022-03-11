@@ -1,9 +1,56 @@
 import React from "react";
+import { useState } from "react";
+import axios from 'axios';
 import Image from "next/image";
 import Head from "../components/Head";
 import image from "../images/contact.png";
 import PageIntro from "../components/PageIntro";
+
 function contact() {
+	const [name, setName] = useState("");
+	const [email, setEmail] = useState("");
+	const [phone, setPhone] = useState("");
+	const [subject, setSubject] = useState("");
+	const [message, setMessage] = useState("");
+	const [error, setError] = useState("");
+	const [successMessage, setSuccessMessage] = useState("");
+	const [submitting, setSubmitting] = useState(false);
+
+	
+	const handleSubmit = async (e) => {
+		e.preventDefault();
+		setError("")
+		setSuccessMessage("")
+		const data = {
+		  name,
+		  email,
+		  phone,
+		  subject,
+		  message
+		};
+		if (!name || !phone || !message) {
+		  return setError("All Fields are required!");
+		}
+		setError("");
+		setSubmitting(true);
+		const res = await axios
+		  .post("http://localhost:3000/api/contact", data)
+			.catch(()=>{
+				setError('Message Not Sent! check your Internet Connection.')
+				setSubmitting(false);
+			})
+			.then(()=>{
+				setSuccessMessage('Message Sent! Thanks for contact us.')
+				setName("")
+				setEmail("")
+				setPhone("")
+				setSubject("")
+				setMessage("")
+				setSubmitting(false);
+			})
+		return setSubmitting(false);
+	  };
+
 	return (
 		<div>
 			<Head title={"Contact Us!"} />
@@ -34,7 +81,8 @@ function contact() {
 													name='name'
 													className='form-control'
 													placeholder='Name'
-													value=''
+													value={name}
+													onChange={(e) => setName(e.target.value)}
 												/>
 												<div
 													className='invalid-feedback'
@@ -44,11 +92,12 @@ function contact() {
 										<div className='col-lg-6 col-md-6'>
 											<div className='form-group'>
 												<input
-													type='text'
+													type='email'
 													name='email'
 													className='form-control'
 													placeholder='Email'
-													value=''
+													value={email}
+													onChange={(e) => setEmail(e.target.value)}
 												/>
 												<div
 													className='invalid-feedback'
@@ -58,11 +107,12 @@ function contact() {
 										<div className='col-lg-6 col-md-6'>
 											<div className='form-group'>
 												<input
-													type='text'
+													type='phone'
 													name='number'
 													className='form-control'
 													placeholder='Phone'
-													value=''
+													value={phone}
+													onChange={(e) => setPhone(e.target.value)}
 												/>
 												<div
 													className='invalid-feedback'
@@ -76,7 +126,8 @@ function contact() {
 													name='subject'
 													className='form-control'
 													placeholder='Subject'
-													value=''
+													value={subject}
+													onChange={(e) => setSubject(e.target.value)}
 												/>
 												<div
 													className='invalid-feedback'
@@ -90,16 +141,47 @@ function contact() {
 													className='form-control'
 													cols='30'
 													rows='5'
-													placeholder='Your message'></textarea>
+													placeholder='Your message'
+													value={message}
+													onChange={(e) => setMessage(e.target.value)}
+													></textarea>
 												<div
 													className='invalid-feedback'
 													style={{ display: "block" }}></div>
 											</div>
 										</div>
+										{
+										error?(
+											<div class="alert alert-danger alert-boxes" role="alert">
+												{error}
+											</div>
+										):null
+										}
+										{
+										successMessage?(
+											<div class="alert alert-success alert-boxes" role="alert">
+												{successMessage}
+											</div>
+										):null
+										}
 										<div className='col-lg-12 col-md-12'>
-											<button type='submit' className='btn btn-primary'>
-												Send Message
+											{
+												submitting?(
+											<button
+												className='btn hover:cursor-no-drop btn-primary'
+												onClick={handleSubmit}
+											>
+												Sending...
 											</button>
+												):(
+													<button
+													className='btn btn-primary'
+													onClick={handleSubmit}
+												>
+													Send Message
+												</button>
+												)
+											}
 										</div>
 									</div>
 								</form>
