@@ -1,5 +1,6 @@
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import log from "../images/logo.png";
 function Navbar() {
 	//navbar scroll when active state
@@ -13,24 +14,23 @@ function Navbar() {
 			setNavbar(false);
 		}
 	};
-	 useEffect(() => {
-			changeBackground();
-			// adding the event when scroll change background
-			window.addEventListener("scroll", changeBackground);
-		});
+	useEffect(() => {
+		changeBackground();
+		// adding the event when scroll change background
+		window.addEventListener("scroll", changeBackground);
+	});
 	return (
 		<header
 			className={
 				navbar
 					? "fixed-top d-flex align-items-center header-scrolled"
 					: "'fixed-top d-flex align-items-center header-transparent'"
-			}
-			>
+			}>
 			<div id='navbar' className='navbar-area'>
 				<div className='main-nav'>
 					<div className='container-fluid'>
 						<nav className='navbar navbar-expand-md navbar-light'>
-							<a className='navbar-brand' href='/'>
+							<Link className='navbar-brand' href='/'>
 								<Image
 									src={log}
 									alt='logo'
@@ -38,7 +38,7 @@ function Navbar() {
 									height='64'
 									className='main-logo'
 								/>
-							</a>
+							</Link>
 							<button
 								className='navbar-toggler navbar-toggler-right collapsed'
 								type='button'
@@ -55,37 +55,55 @@ function Navbar() {
 								className='collapse navbar-collapse'
 								id='navbarSupportedContent'>
 								<ul className='navbar-nav'>
-									<li className='nav-item' >
-										<a className='nav-link' href='/'>
-											Home 
-										</a>
+									<li className='nav-item'>
+										<Link className='nav-link' href='/'>
+											Home
+										</Link>
 									</li>
 									<li className='nav-item'>
-										<a className='nav-link' href='about'>
-											About Us 
-										</a>
+										<Link className='nav-link' href='about'>
+											About Us
+										</Link>
 									</li>
 									<li className='nav-item'>
-										<a className='nav-link' href='index.htm#'>
-											Projects 
-										</a>
+										<Link className='nav-link ' href='projectManagment'>
+											Projects
+										</Link>
 										<ul className='dropdown-menu'>
-											<li className='nav-item'>
-												<a className='nav-link' href='projects.html'>
-													Projects
-												</a>
+											<li>
+												<Link className='nav-link' href='projectManagement'>
+													Project Managment
+												</Link>
 											</li>
-											<li className='nav-item'>
-												<a className='nav-link' href='projects-details.html'>
-													Projects Details
-												</a>
-											</li>
+											<li className='nav-item'>Consultation</li>
+											<ul className='nav-item dropdown-menu'>
+												<li className='dropdown-item'>
+													<Link className='nav-link' href='productDesign'>
+														Product Design
+													</Link>
+												</li>
+												<li className='dropdown-item'>
+													<Link className='nav-link' href='conceptCreation'>
+														Concept Creation
+													</Link>
+												</li>
+												<li className='dropdown-item'>
+													<Link className='nav-link' href='3Dvisuals'>
+														3D visuals
+													</Link>
+												</li>
+												<li className='dropdown-item'>
+													<Link className='nav-link' href='moodBoard'>
+														Mood Board
+													</Link>
+												</li>
+											</ul>
 										</ul>
 									</li>
 									<li className='nav-item'>
-										<a className='nav-link' href='contact'>
+										<Link className='nav-link' href='contact'>
 											Contact
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</div>
