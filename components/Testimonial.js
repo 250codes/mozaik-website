@@ -1,46 +1,138 @@
-import React from 'react'
-import Script from 'next/script'
+import React from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+const responsive = {
+	superLargeDesktop: {
+		// the naming can be any, depends on you.
+		breakpoint: { max: 4000, min: 3000 },
+		items: 5,
+	},
+	desktop: {
+		breakpoint: { max: 3000, min: 1024 },
+		items: 3,
+	},
+	tablet: {
+		breakpoint: { max: 1024, min: 464 },
+		items: 2,
+	},
+	mobile: {
+		breakpoint: { max: 464, min: 0 },
+		items: 1,
+	},
+};
 
 function Testimonial() {
-  return (
-<div className="testimonials-clean">
-        <div className="container">
-            <div className="intro">
-                <h2 className="text-center">Testimonials </h2>
-                {/* <p className="text-center">Our customers love us! Read what they have to say below. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p> */}
-            </div>
-            <div className="row people">
-                <div className="col-md-6 col-lg-4 item">
-                    <div className="box">
-                        <p className="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
-                    </div>
-                    <div className="author"><img className="rounded-circle" src="../images/page-banner-bg.jpg" />
-                        <h5 className="name">John Doe</h5>
-                        <p className="title">CEO of Company Inc.</p>
-                    </div>
-                </div>
-                <div className="col-md-6 col-lg-4 item">
-                    <div className="box">
-                        <p className="description">Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id.</p>
-                    </div>
-                    <div className="author"><img className="rounded-circle" src="/page-banner-bg.jpg"/>
-                        <h5 className="name">John Doe</h5>
-                        <p className="title">Founder of Style Co.</p>
-                    </div>
-                </div>
-                <div className="col-md-6 col-lg-4 item">
-                    <div className="box">
-                        <p className="description">Aliquam varius finibus est, et interdum justo suscipit. Vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
-                    </div>
-                    <div className="author"><img className="rounded-circle" src="/testimonials-1.jpg"/>
-                        <h5 className="name">John Doe</h5>
-                        <p className="title">Owner of Creative Ltd.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	return (
+		<div className="p-10" style={{padding:"2rem"}}>
+			<div className='intro'>
+				<h2 className='text-center'>Testimonials </h2>
+				<p className='text-center'>
+					Our customers love us! Read what they have to say below. Aliquam sed
+					justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.
+				</p>
+			</div>
+			<Carousel responsive={responsive}>
+				<figure className='snip1192'>
+					<blockquote>
+						Calvin: Sometimes when I'm talking with others, my words can't keep
+						up with my thoughts. I wonder why we think faster than we speak.
+						Hobbes: Probably so we can think twice.{" "}
+					</blockquote>
+					<div className='author'>
+						<img
+							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg'
+							alt='sq-sample1'
+						/>
+						<h5>
+							Pelican Steve <span> LittleSnippets</span>
+						</h5>
+					</div>
+				</figure>
+				<figure className='snip1192 hover'>
+					<blockquote>
+						Thank you. before I begin, I'd like everyone to notice that my
+						report is in a professional, clear plastic binder...When a report
+						looks this good, you know it'll get an A. That's a tip kids. Write
+						it down.
+					</blockquote>
+					<div className='author'>
+						<img
+							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample24.jpg'
+							alt='sq-sample24'
+						/>
+						<h5>
+							Max Conversion<span> LittleSnippets</span>
+						</h5>
+					</div>
+				</figure>
+				<figure className='snip1192'>
+					<blockquote>
+						My behaviour is addictive functioning in a disease process of toxic
+						co-dependency. I need holistic healing and wellness before I'll
+						accept any responsibility for my actions.
+					</blockquote>
+					<div className='author'>
+						<img
+							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample29.jpg'
+							alt='sq-sample29'
+						/>
+						<h5>
+							Eleanor Faint<span> LittleSnippets</span>
+						</h5>
+					</div>
+				</figure>
+				<figure className='snip1192'>
+					<blockquote>
+						Calvin: Sometimes when I'm talking with others, my words can't keep
+						up with my thoughts. I wonder why we think faster than we speak.
+						Hobbes: Probably so we can think twice.{" "}
+					</blockquote>
+					<div className='author'>
+						<img
+							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg'
+							alt='sq-sample1'
+						/>
+						<h5>
+							Pelican Steve <span> LittleSnippets</span>
+						</h5>
+					</div>
+				</figure>
+				<figure className='snip1192 hover'>
+					<blockquote>
+						Thank you. before I begin, I'd like everyone to notice that my
+						report is in a professional, clear plastic binder...When a report
+						looks this good, you know it'll get an A. That's a tip kids. Write
+						it down.
+					</blockquote>
+					<div className='author'>
+						<img
+							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample24.jpg'
+							alt='sq-sample24'
+						/>
+						<h5>
+							Max Conversion<span> LittleSnippets</span>
+						</h5>
+					</div>
+				</figure>
+				<figure className='snip1192'>
+					<blockquote>
+						My behaviour is addictive functioning in a disease process of toxic
+						co-dependency. I need holistic healing and wellness before I'll
+						accept any responsibility for my actions.
+					</blockquote>
+					<div className='author'>
+						<img
+							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample29.jpg'
+							alt='sq-sample29'
+						/>
+						<h5>
+							Eleanor Faint<span> LittleSnippets</span>
+						</h5>
+					</div>
+				</figure>
+			</Carousel>
+		</div>
 	);
 }
 
-export default Testimonial
+export default Testimonial;

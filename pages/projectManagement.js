@@ -9,7 +9,7 @@ function projectManagement() {
 				<div className='row'>
 					<div className='col-md-8'>
 						<img
-							className='img-fluid'
+							className='img-fluid w-100'
 							src='https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
 							alt=''
 						/>

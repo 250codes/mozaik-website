@@ -8,7 +8,7 @@ function productDesign() {
 				<div className='row'>
 					<div className='col-md-8'>
 						<img
-							className='img-fluid'
+							className='img-fluid w-100'
 							src='https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
 							alt=''
 						/>

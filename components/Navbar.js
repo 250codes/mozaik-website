@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import log from "../images/logo.png";
 function Navbar() {
+	const [mobile, setMobile] = useState(false);
 	//navbar scroll when active state
 	const [navbar, setNavbar] = useState(false);
 	//navbar scroll changeBackground function
@@ -19,97 +20,101 @@ function Navbar() {
 		// adding the event when scroll change background
 		window.addEventListener("scroll", changeBackground);
 	});
+
 	return (
 		<header
+			id='header'
 			className={
 				navbar
-					? "fixed-top d-flex align-items-center header-scrolled"
-					: "'fixed-top d-flex align-items-center header-transparent'"
+					? "fixed-top d-flex  align-items-center header-scrolled "
+					: "fixed-top d-flex align-items-center header-transparent"
 			}>
-			<div id='navbar' className='navbar-area'>
-				<div className='main-nav'>
-					<div className='container-fluid'>
-						<nav className='navbar navbar-expand-md navbar-light'>
-							<Link className='navbar-brand' href='/'>
-								<Image
-									src={log}
-									alt='logo'
-									width='100'
-									height='64'
-									className='main-logo'
-								/>
-							</Link>
-							<button
-								className='navbar-toggler navbar-toggler-right collapsed'
-								type='button'
-								data-toggle='collapse'
-								data-target='#navbarSupportedContent'
-								aria-controls='navbarSupportedContent'
-								aria-expanded='false'
-								aria-label='Toggle navigation'>
-								<span className='icon-bar top-bar'></span>
-								<span className='icon-bar middle-bar'></span>
-								<span className='icon-bar bottom-bar'></span>
-							</button>
-							<div
-								className='collapse navbar-collapse'
-								id='navbarSupportedContent'>
-								<ul className='navbar-nav'>
-									<li className='nav-item'>
-										<Link className='nav-link' href='/'>
-											Home
-										</Link>
-									</li>
-									<li className='nav-item'>
-										<Link className='nav-link' href='about'>
-											About Us
-										</Link>
-									</li>
-									<li className='nav-item'>
-										<Link className='nav-link ' href='projectManagment'>
-											Projects
-										</Link>
-										<ul className='dropdown-menu'>
-											<li>
-												<Link className='nav-link' href='projectManagement'>
-													Project Managment
-												</Link>
-											</li>
-											<li className='nav-item'>Consultation</li>
-											<ul className='nav-item dropdown-menu'>
-												<li className='dropdown-item'>
-													<Link className='nav-link' href='productDesign'>
-														Product Design
-													</Link>
-												</li>
-												<li className='dropdown-item'>
-													<Link className='nav-link' href='conceptCreation'>
-														Concept Creation
-													</Link>
-												</li>
-												<li className='dropdown-item'>
-													<Link className='nav-link' href='3Dvisuals'>
-														3D visuals
-													</Link>
-												</li>
-												<li className='dropdown-item'>
-													<Link className='nav-link' href='moodBoard'>
-														Mood Board
-													</Link>
-												</li>
-											</ul>
-										</ul>
-									</li>
-									<li className='nav-item'>
-										<Link className='nav-link' href='contact'>
-											Contact
-										</Link>
-									</li>
-								</ul>
-							</div>
-						</nav>
-					</div>
+			<div className='container d-flex justify-content-between align-items-center  w-100'>
+				<div>
+					<h1 className='logo me-auto'>
+						<Image
+							src={log}
+							alt='logo'
+							width='100'
+							height='64'
+							className='main-logo'
+						/>
+					</h1>
 				</div>
+
+				{/* <!-- <a href="index.html" className="logo me-auto"><img src="assets/img/logo.png" alt=""></a>--> */}
+
+				<nav
+					id='navbar'
+					className={
+						mobile
+							? "navbar order-last order-lg-0 navbar-mobile"
+							: "navbar order-last order-lg-0"
+					}>
+					<ul>
+						<li>
+							<Link className='nav-link scrollto active link-warning' href='/'>
+								Home
+							</Link>
+						</li>
+						<li>
+							<Link className='nav-link scrollto' href='about'>
+								About
+							</Link>
+						</li>
+
+						<li className='dropdown'>
+							<a href='#'>
+								<span>Projects</span> <i className='bi bi-chevron-down'></i>
+							</a>
+							<ul>
+								<li>
+									<a href='#'>Projects Management </a>
+								</li>
+								<li className='dropdown'>
+									<a href='#'>
+										<span>Consultation</span>{" "}
+										<i className='bi bi-chevron-right'></i>
+									</a>
+									<ul>
+										<li>
+											<Link className='nav-link' href='productDesign'>
+												Product Design
+											</Link>
+										</li>
+										<li>
+											<Link className='nav-link' href='conceptCreation'>
+												Concept Creation
+											</Link>
+										</li>
+										<li>
+											<Link className='nav-link' href='3Dvisuals'>
+												3D visuals
+											</Link>
+										</li>
+										<li>
+											<Link className='nav-link' href='moodBoard'>
+												Mood Board
+											</Link>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a className='nav-link scrollto' href='#contact'>
+								Contact
+							</a>
+						</li>
+					</ul>
+					<i
+						className={
+							mobile
+								? "bi bi-list mobile-nav-toggle bi-x"
+								: "bi bi-list mobile-nav-toggle"
+						}
+						onClick={() => setMobile(!mobile)}></i>
+				</nav>
 			</div>
 		</header>
 	);

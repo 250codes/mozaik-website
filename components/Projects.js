@@ -1,26 +1,22 @@
-import React from "react";
-import Image from "next/image";
+import React, { useState } from "react";
+
 function Projects() {
+	const [isFlipped, setIsFlipped] = useState(false);
+	const handleClick = (e) => {
+		e.preventDefault();
+		setIsFlipped(!isFlipped);
+	};
 	return (
 		<section className='services-area bg-f2f6f9 ptb-110'>
 			<div className='container'>
 				<div className='section-title'>
-					<h2>Projects</h2>
+					<h2>PortFolio</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 						eiusmod tempor incididunt ut labore et dolore magna aliqua.
 					</p>
 				</div>
 				<div className='row text-center text-lg-start'>
-					<div className='col-lg-3 col-md-4 col-6'>
-						<a href='#' className='d-block mb-4 h-100'>
-							<img
-								className='img-fluid img-thumbnail'
-								src='https://source.unsplash.com/pWkk7iiCoDM/400x300'
-								alt=''
-							/>
-						</a>
-					</div>
 					<div className='col-lg-3 col-md-4 col-6'>
 						<a href='#' className='d-block mb-4 h-100'>
 							<img
