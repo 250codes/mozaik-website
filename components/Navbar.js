@@ -32,13 +32,7 @@ function Navbar() {
 			<div className='container d-flex justify-content-between align-items-center  w-100'>
 				<div>
 					<h1 className='logo me-auto'>
-						<Image
-							src={log}
-							alt='logo'
-							width='130'
-							height='100'
-							className='main-logo'
-						/>
+						<img src='images/logo.png' className='main-logo' alt='logg' />
 					</h1>
 				</div>
 
