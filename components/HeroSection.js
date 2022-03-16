@@ -6,13 +6,13 @@ import Image from "next/image";
 function HeroSection() {
 	const images = [
 		{
-			url: "https://images.pexels.com/photos/6970049/pexels-photo-6970049.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-6970049.jpg&fm=jpg",
+			url: "images/first1.jpg",
 		},
 		{
-			url: "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+			url: "images/first2.jpg ",
 		},
 		{
-			url: "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+			url: "images/first3.jpg",
 		},
 	];
 	return (
@@ -24,10 +24,13 @@ function HeroSection() {
 						height={"100vh"}
 						images={images}
 						showBullets={true}
-						showNavs={true}
+						showNavs={false}
+						autoPlay={true}
 					/>
 				</div>
-				<div className='position-absolute top-50 start-50 translate-middle'>
+				<div
+					className='position-absolute top-50 start-50 translate-middle'
+					id='middle'>
 					<Image
 						src={log}
 						alt='logo'

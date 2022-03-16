@@ -1,5 +1,5 @@
 import React from "react";
-// import styles from '../styles/about.css'
+
 
 function AboutIntro({ name }) {
 	return (

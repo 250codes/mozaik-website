@@ -35,8 +35,8 @@ function Navbar() {
 						<Image
 							src={log}
 							alt='logo'
-							width='100'
-							height='64'
+							width='130'
+							height='100'
 							className='main-logo'
 						/>
 					</h1>
@@ -102,7 +102,7 @@ function Navbar() {
 							</ul>
 						</li>
 						<li>
-							<a className='nav-link scrollto' href='#contact'>
+							<a className='nav-link scrollto' href='contact'>
 								Contact
 							</a>
 						</li>
