@@ -5,21 +5,21 @@ export default async function contact(req, res) {
   const { method } = req;
   if (method === "POST") {
 
-  sgMail.setApiKey("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")
-  const mailer = async (userInfo) =>{  
-    const data =`<p>Hi,<br/> Client Name: ${userInfo.name}<br/> Client Phone Number: ${userInfo.phone}<br/> Client Email: ${userInfo.name}<br/> Subject:${userInfo.subject}<br/> Subject:${userInfo.Message}</p>`;
-    const subject ='Mozaik Website Client Message';
-    const emailFrom = 'arsenedeveloper250@gmail.com'
+  sgMail.setApiKey("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")
+  const mailer = async ({name,phone='07897',subject,message,email}) =>{  
+    const data =`<p>Hi,<br/><br/> Client Name: ${name}<br/><br/> Client Phone Number: ${phone}<br/><br/> Client Email: ${email}<br/><br/> Subject:${subject}<br/><br/> Message:${message}</p>`;
+    const emailSubject ='Mozaik Website Client Message';
+    const emailFrom = 'mwisemarierose@gmail.com'
     const emailTo = 'mozaikdeveloper@gmail.com'
       
       const mailOptions = {
         from: `"Mozaik Website"<${emailFrom}>`,
         to: emailTo,
-        subject,
+        subject:emailSubject,
         html: data
       };
       try {
-        const sendmail = sgMail.send(mailOptions);
+        const sendmail = await sgMail.send(mailOptions);
         return sendmail;
       }
       catch(err){
@@ -27,14 +27,13 @@ export default async function contact(req, res) {
       }
     }
   try {
-    // const {
-    //   name, email, phone, subject, message
-    // } = req.body;
-    await mailer(req.body).catch((error)=>console.log('error',error))
+    await mailer(req.body)
     return res.status(200).send({message:'Message sent Successfully!'})
 
   } catch (error) {
     return res.status(500).send({message:'SERVER_ERROR'})
   }
+}else{
+  return res.status(500).send({message:'ROUTE NOT FOUND'})
 }
 }
