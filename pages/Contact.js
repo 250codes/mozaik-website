@@ -27,25 +27,27 @@ function Contact() {
 			subject,
 			message,
 		};
-		if (!name || !phone || !message) {
-			return setError("All Fields are required!");
+		if (!(phone || email)) {
+			return setError("Provide an email or a phone number please!");
+		}
+		if (!subject || !message || !name) {
+			return setError("name, subject and message are required!");
 		}
 		setError("");
 		setSubmitting(true);
 		const res = await axios
 			.post("http://localhost:3000/api/contact", data)
-			.catch(() => {
-				setError("Message Not Sent! check your Internet Connection.");
-				setSubmitting(false);
-			})
-			.then(() => {
+			.then((res) => {
 				setSuccessMessage("Message Sent! Thanks for contact us.");
 				setName("");
 				setEmail("");
 				setPhone("");
 				setSubject("");
 				setMessage("");
+				setError("");
 				setSubmitting(false);
+			}).catch(()=>{
+				return setError("Message Not Sent! check your Internet Connection.");
 			});
 		return setSubmitting(false);
 	};
