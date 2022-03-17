@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import log from "../images/logo.png";
+import log from "../images/Mozaik.png";
 function Navbar() {
 	const [mobile, setMobile] = useState(false);
 	//navbar scroll when active state
@@ -32,7 +32,13 @@ function Navbar() {
 			<div className='container d-flex justify-content-between align-items-center  w-100'>
 				<div>
 					<h1 className='logo me-auto'>
-						<img src='images/logo.png' className='main-logo' alt='logg' />
+						<Image
+							src={log}
+							width={200}
+							height={100}
+							className='main-logo'
+							alt='logg'
+						/>
 					</h1>
 				</div>
 
@@ -63,7 +69,7 @@ function Navbar() {
 							</a>
 							<ul>
 								<li>
-									<a href='#'>Projects Management </a>
+									<a href='projectManagement'>Projects Management </a>
 								</li>
 								<li className='dropdown'>
 									<a href='#'>

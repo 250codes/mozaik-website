@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Projects() {
 	return (
@@ -19,7 +20,12 @@ function Projects() {
 								<Link href='/'>
 									<a>
 										<div className='content-overlay'></div>
-										<img className='content-image' src='images/project1.jpg' />
+										<Image
+											width={400}
+											height={400}
+											className='content-image'
+											src='/images/project1.jpg'
+										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
 											<p>This is a short description</p>
@@ -34,7 +40,12 @@ function Projects() {
 								<Link href='/'>
 									<a>
 										<div className='content-overlay'></div>
-										<img className='content-image' src='images/project2.jpg' />
+										<Image
+											width={400}
+											height={400}
+											className='content-image'
+											src='/images/project2.jpg'
+										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
 											<p>This is a short description</p>
@@ -49,7 +60,12 @@ function Projects() {
 								<Link href='/'>
 									<a>
 										<div className='content-overlay'></div>
-										<img className='content-image' src='images/project3.jpg' />
+										<Image
+											width={400}
+											height={400}
+											className='content-image'
+											src='/images/project3.jpg'
+										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
 											<p>This is a short description</p>
@@ -64,7 +80,12 @@ function Projects() {
 								<Link href='/'>
 									<a>
 										<div className='content-overlay'></div>
-										<img className='content-image' src='images/project4.jpg' />
+										<Image
+											width={400}
+											height={400}
+											className='content-image'
+											src='/images/project4.jpg'
+										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
 											<p>This is a short description</p>
@@ -78,7 +99,12 @@ function Projects() {
 								<Link href='/'>
 									<a>
 										<div className='content-overlay'></div>
-										<img className='content-image' src='images/project1.jpg' />
+										<Image
+											width={400}
+											height={400}
+											className='content-image'
+											src='/images/project1.jpg'
+										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
 											<p>This is a short description</p>
@@ -92,7 +118,12 @@ function Projects() {
 								<Link href='/'>
 									<a>
 										<div className='content-overlay'></div>
-										<img className='content-image' src='images/project1.jpg' />
+										<Image
+											width={400}
+											height={400}
+											className='content-image'
+											src='/images/project1.jpg'
+										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
 											<p>This is a short description</p>
@@ -106,7 +137,12 @@ function Projects() {
 								<Link href='/'>
 									<a>
 										<div className='content-overlay'></div>
-										<img className='content-image' src='images/project1.jpg' />
+										<Image
+											width={400}
+											height={400}
+											className='content-image'
+											src='/images/project1.jpg'
+										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
 											<p>This is a short description</p>
@@ -120,7 +156,12 @@ function Projects() {
 								<Link href='/'>
 									<a>
 										<div className='content-overlay'></div>
-										<img className='content-image' src='images/project1.jpg' />
+										<Image
+											width={400}
+											height={400}
+											className='content-image'
+											src='/images/project1.jpg'
+										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
 											<p>This is a short description</p>

@@ -1,5 +1,6 @@
 import React from "react";
 import PageIntro from "../components/PageIntro";
+import Image from "next/image";
 function moodBoard() {
 	return (
 		<div>
@@ -7,8 +8,11 @@ function moodBoard() {
 			<div className='container ptb-110'>
 				<div className='row'>
 					<div className='col-md-8'>
-						<img
+						<Image
 							className='img-fluid w-100'
+							layout='intrinsic'
+							width={700}
+							height={475}
 							src='https://images.pexels.com/photos/4622218/pexels-photo-4622218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
 							alt=''
 						/>

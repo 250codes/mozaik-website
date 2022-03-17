@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import PageIntro from "../components/PageIntro";
 function Dvisuals() {
 	return (
@@ -7,13 +8,15 @@ function Dvisuals() {
 			<div className='container ptb-110'>
 				<div className='row'>
 					<div className='col-md-8'>
-						<img
+						<Image
 							className='img-fluid w-100'
+							layout='intrinsic'
+							width={700}
+							height={475}
 							src='https://images.pexels.com/photos/9436715/pexels-photo-9436715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
 							alt=''
 						/>
 					</div>
-
 					<div className='col-md-4'>
 						<h3 className='my-3'>3D visuals</h3>
 						<p>

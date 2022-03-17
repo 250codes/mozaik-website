@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import log from "../images/logo.png";
+import log from "../images/Mozaik.png";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
 						<div className='single-footer-widget'>
 							<div className='logo'>
 								<a href='index.htm'>
-									<Image src={log} width='100px' height='100px' alt='image' />
+									<Image src={log} width='300px' height='150px' alt='image' />
 								</a>
 								<p>
 									Quis ipsum suspendisse ultrices gravida. Risus commodo viverra

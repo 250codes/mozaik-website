@@ -1,5 +1,5 @@
 import React from "react";
-import log from "../images/logo.png";
+import log from "../images/Mozaik.png";
 import SimpleImageSlider from "react-simple-image-slider";
 import Image from "next/image";
 
@@ -18,7 +18,7 @@ function HeroSection() {
 	return (
 		<>
 			<div className='position-relative '>
-				<div className='opacity-75'>
+				<div className='slid-opacity'>
 					<SimpleImageSlider
 						width={"100%"}
 						height={"100vh"}

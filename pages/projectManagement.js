@@ -1,6 +1,6 @@
 import React from "react";
 import PageIntro from "../components/PageIntro";
-
+import Image from "next/image";
 function projectManagement() {
 	return (
 		<div>
@@ -8,8 +8,11 @@ function projectManagement() {
 			<div className='container ptb-110'>
 				<div className='row'>
 					<div className='col-md-8'>
-						<img
+						<Image
 							className='img-fluid w-100'
+							layout='intrinsic'
+							width={700}
+							height={475}
 							src='https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
 							alt=''
 						/>
