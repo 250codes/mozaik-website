@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 #middle {
@@ -11,17 +11,15 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
-
 }
 
 #middle h1 {
-font-weight: normal;
-font-size: 35px;
-font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 35px;
+	font-family: "Montserrat", sans-serif;
 }
 
-.slid-opacity{
+.slid-opacity {
 	opacity: 1;
 }
 
@@ -170,7 +168,7 @@ a {
 	}
 }
 .navbar-mobile {
-	position: fixed;
+	position: fixed !important;
 	overflow: hidden;
 	top: 0;
 	right: 0;
