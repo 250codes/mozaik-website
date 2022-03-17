@@ -3,9 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import log from "../images/Mozaik.png";
 function Navbar() {
+	const [dropDown, setDropDown] = useState(false);
+	const [deepdropDown, setDeepDropDown] = useState(false);
 	const [mobile, setMobile] = useState(false);
 	//navbar scroll when active state
 	const [navbar, setNavbar] = useState(false);
+
 	//navbar scroll changeBackground function
 	const changeBackground = () => {
 		// console.log(window.scrollY);
@@ -20,6 +23,12 @@ function Navbar() {
 		// adding the event when scroll change background
 		window.addEventListener("scroll", changeBackground);
 	});
+
+const handeClose = ()=>{
+	setMobile(false);
+	setDeepDropDown(false);
+	setDropDown(false);
+}
 
 	return (
 		<header
@@ -57,7 +66,7 @@ function Navbar() {
 								Home
 							</Link>
 						</li>
-						<li>
+						<li onClick={() => setMobile(false)}>
 							<Link className='nav-link scrollto' href='about'>
 								About
 							</Link>
@@ -65,34 +74,37 @@ function Navbar() {
 
 						<li className='dropdown'>
 							<a href='#'>
-								<span>Projects</span> <i className='bi bi-chevron-down'></i>
+								<span onClick={() => setDropDown(!dropDown)}>Projects</span>{" "}
+								<i className='bi bi-chevron-down'></i>
 							</a>
-							<ul>
-								<li>
+							<ul className={dropDown ? "dropdown-active" : ""}>
+								<li onClick={() => setMobile(false)}>
 									<a href='projectManagement'>Projects Management </a>
 								</li>
 								<li className='dropdown'>
 									<a href='#'>
-										<span>Consultation</span>{" "}
+										<span onClick={() => setDeepDropDown(!deepdropDown)}>
+											Consultation
+										</span>{" "}
 										<i className='bi bi-chevron-right'></i>
 									</a>
-									<ul>
-										<li>
+									<ul className={deepdropDown ? "dropdown-active" : ""}>
+										<li onClick={() => handeClose()}>
 											<Link className='nav-link' href='productDesign'>
 												Product Design
 											</Link>
 										</li>
-										<li>
+										<li onClick={() => handeClose()}>
 											<Link className='nav-link' href='conceptCreation'>
 												Concept Creation
 											</Link>
 										</li>
-										<li>
+										<li onClick={() => handeClose()}>
 											<Link className='nav-link' href='3Dvisuals'>
 												3D visuals
 											</Link>
 										</li>
-										<li>
+										<li onClick={() => handeClose()}>
 											<Link className='nav-link' href='moodBoard'>
 												Mood Board
 											</Link>
@@ -101,8 +113,8 @@ function Navbar() {
 								</li>
 							</ul>
 						</li>
-						<li>
-							<a className='nav-link scrollto' href='contact'>
+						<li onClick={() => setMobile(false)}>
+							<a className='nav-link scrollto' href='Contact'>
 								Contact
 							</a>
 						</li>
