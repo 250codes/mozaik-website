@@ -1,12 +1,12 @@
 import React from "react";
 import { useState } from "react";
-import axios from 'axios';
+import axios from "axios";
 import Image from "next/image";
 import Head from "../components/Head";
 import image from "../images/contact.png";
 import PageIntro from "../components/PageIntro";
 
-function contact() {
+function Contact() {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [phone, setPhone] = useState("");
@@ -16,45 +16,44 @@ function contact() {
 	const [successMessage, setSuccessMessage] = useState("");
 	const [submitting, setSubmitting] = useState(false);
 
-	
 	const handleSubmit = async (e) => {
 		e.preventDefault();
-		setError("")
-		setSuccessMessage("")
+		setError("");
+		setSuccessMessage("");
 		const data = {
-		  name,
-		  email,
-		  phone,
-		  subject,
-		  message
+			name,
+			email,
+			phone,
+			subject,
+			message,
 		};
 		if (!name || !phone || !message) {
-		  return setError("All Fields are required!");
+			return setError("All Fields are required!");
 		}
 		setError("");
 		setSubmitting(true);
 		const res = await axios
-		  .post("http://localhost:3000/api/contact", data)
-			.catch(()=>{
-				setError('Message Not Sent! check your Internet Connection.')
+			.post("http://localhost:3000/api/contact", data)
+			.catch(() => {
+				setError("Message Not Sent! check your Internet Connection.");
 				setSubmitting(false);
 			})
-			.then(()=>{
-				setSuccessMessage('Message Sent! Thanks for contact us.')
-				setName("")
-				setEmail("")
-				setPhone("")
-				setSubject("")
-				setMessage("")
+			.then(() => {
+				setSuccessMessage("Message Sent! Thanks for contact us.");
+				setName("");
+				setEmail("");
+				setPhone("");
+				setSubject("");
+				setMessage("");
 				setSubmitting(false);
-			})
+			});
 		return setSubmitting(false);
-	  };
+	};
 
 	return (
 		<div>
 			<Head title={"Contact Us!"} />
-			<PageIntro name="CONTACT US"/>
+			<PageIntro name='CONTACT US' />
 			<section className='contact-area ptb-110'>
 				<div className='container'>
 					<div className='section-title'>
@@ -143,56 +142,52 @@ function contact() {
 													rows='5'
 													placeholder='Your message'
 													value={message}
-													onChange={(e) => setMessage(e.target.value)}
-													></textarea>
+													onChange={(e) =>
+														setMessage(e.target.value)
+													}></textarea>
 												<div
 													className='invalid-feedback'
 													style={{ display: "block" }}></div>
 											</div>
 										</div>
-										{
-										error?(
-											<div class="alert alert-danger alert-boxes" role="alert">
+										{error ? (
+											<div
+												className='alert alert-danger alert-boxes'
+												role='alert'>
 												{error}
 											</div>
-										):null
-										}
-										{
-										successMessage?(
-											<div class="alert alert-success alert-boxes" role="alert">
+										) : null}
+										{successMessage ? (
+											<div
+												className='alert alert-success alert-boxes'
+												role='alert'>
 												{successMessage}
 											</div>
-										):null
-										}
+										) : null}
 										<div className='col-lg-12 col-md-12'>
-											{
-												submitting?(
-											<button
-												className='btn hover:cursor-no-drop btn-primary'
-												onClick={handleSubmit}
-											>
-												Sending...
-											</button>
-												):(
-													<button
+											{submitting ? (
+												<button
+													className='btn hover:cursor-no-drop btn-primary'
+													onClick={handleSubmit}>
+													Sending...
+												</button>
+											) : (
+												<button
 													className='btn btn-primary'
-													onClick={handleSubmit}
-												>
+													onClick={handleSubmit}>
 													Send Message
 												</button>
-												)
-											}
+											)}
 										</div>
 									</div>
 								</form>
 							</div>
 						</div>
 					</div>
-					
 				</div>
 			</section>
 		</div>
 	);
 }
 
-export default contact;
+export default Contact;

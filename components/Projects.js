@@ -25,6 +25,7 @@ function Projects() {
 											height={400}
 											className='content-image'
 											src='/images/project1.jpg'
+											alt='project1'
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
@@ -45,6 +46,7 @@ function Projects() {
 											height={400}
 											className='content-image'
 											src='/images/project2.jpg'
+											alt='project2'
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
@@ -65,6 +67,7 @@ function Projects() {
 											height={400}
 											className='content-image'
 											src='/images/project3.jpg'
+											alt='project3'
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
@@ -85,6 +88,7 @@ function Projects() {
 											height={400}
 											className='content-image'
 											src='/images/project4.jpg'
+											alt='project4'
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
@@ -104,6 +108,7 @@ function Projects() {
 											height={400}
 											className='content-image'
 											src='/images/project1.jpg'
+											alt='project1'
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
@@ -123,6 +128,7 @@ function Projects() {
 											height={400}
 											className='content-image'
 											src='/images/project1.jpg'
+											alt='project1'
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
@@ -142,6 +148,7 @@ function Projects() {
 											height={400}
 											className='content-image'
 											src='/images/project1.jpg'
+											alt='project1'
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
@@ -161,6 +168,7 @@ function Projects() {
 											height={400}
 											className='content-image'
 											src='/images/project1.jpg'
+											alt='project1'
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>
