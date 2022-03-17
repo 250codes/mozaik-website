@@ -24,11 +24,11 @@ function Navbar() {
 		window.addEventListener("scroll", changeBackground);
 	});
 
-const handeClose = ()=>{
-	setMobile(false);
-	setDeepDropDown(false);
-	setDropDown(false);
-}
+	const handeClose = () => {
+		setMobile(false);
+		setDeepDropDown(false);
+		setDropDown(false);
+	};
 
 	return (
 		<header
@@ -61,7 +61,7 @@ const handeClose = ()=>{
 							: "navbar order-last order-lg-0"
 					}>
 					<ul>
-						<li>
+						<li onClick={() => setMobile(false)}>
 							<Link className='nav-link scrollto active link-warning' href='/'>
 								Home
 							</Link>
