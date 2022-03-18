@@ -36,7 +36,7 @@ function Contact() {
 		setError("");
 		setSubmitting(true);
 		await axios
-			.post("http://localhost:3000/api/contact", data)
+			.post("/api/contact", data)
 			.then(() => {
 				setSuccessMessage("Message Sent! Thanks for contacting us.");
 				setName("");
@@ -46,7 +46,8 @@ function Contact() {
 				setMessage("");
 				setError("");
 				setSubmitting(false);
-			}).catch(()=>{
+			})
+			.catch(() => {
 				return setError("Message Not Sent! check your Internet Connection.");
 			});
 		return setSubmitting(false);
