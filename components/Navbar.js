@@ -40,6 +40,7 @@ function Navbar() {
 			}>
 			<div className='container d-flex justify-content-between align-items-center  w-100'>
 				<div>
+				<Link href='/'>
 					<h1 className='logo me-auto'>
 						<Image
 							src={log}
@@ -49,6 +50,8 @@ function Navbar() {
 							alt='logg'
 						/>
 					</h1>
+				</Link>
+
 				</div>
 
 				{/* <!-- <a href="index.html" className="logo me-auto"><img src="assets/img/logo.png" alt=""></a>--> */}
@@ -62,11 +65,6 @@ function Navbar() {
 					}>
 					<ul>
 						<li onClick={() => setMobile(false)}>
-							<Link className='nav-link scrollto active link-warning' href='/'>
-								Home
-							</Link>
-						</li>
-						<li onClick={() => setMobile(false)}>
 							<Link className='nav-link scrollto' href='about'>
 								About
 							</Link>
@@ -74,39 +72,56 @@ function Navbar() {
 
 						<li className='dropdown'>
 							<a href='#'>
-								<span onClick={() => setDropDown(!dropDown)}>Projects</span>{" "}
+								<span onClick={() => setDropDown(!dropDown)}>Services</span>{" "}
 								<i className='bi bi-chevron-down'></i>
 							</a>
 							<ul className={dropDown ? "dropdown-active" : ""}>
-								<li onClick={() => setMobile(false)}>
-									<a href='projectManagement'>Projects Management </a>
-								</li>
 								<li className='dropdown'>
 									<a href='#'>
 										<span onClick={() => setDeepDropDown(!deepdropDown)}>
-											Consultation
+											Consultancy and Conceptualisation
 										</span>{" "}
 										<i className='bi bi-chevron-right'></i>
 									</a>
 									<ul className={deepdropDown ? "dropdown-active" : ""}>
 										<li onClick={() => handeClose()}>
+											<Link className='nav-link' href='consultancy'>
+												Consultancy
+											</Link>
+										</li>
+										<li onClick={() => handeClose()}>
+											<Link className='nav-link' href='design'>
+												Design
+											</Link>
+										</li>
+										<li onClick={() => handeClose()}>
 											<Link className='nav-link' href='productDesign'>
-												Product Design
+												Products Design
+											</Link>
+										</li>
+									</ul>
+								</li>
+								<li className='dropdown'>
+									<a href='#'>
+										<span onClick={() => setDeepDropDown(!deepdropDown)}>
+											Project Management
+										</span>{" "}
+										<i className='bi bi-chevron-right'></i>
+									</a>
+									<ul className={deepdropDown ? "dropdown-active" : ""}>
+										<li onClick={() => handeClose()}>
+											<Link className='nav-link' href='finishing'>
+												Finishing and partitioning works
 											</Link>
 										</li>
 										<li onClick={() => handeClose()}>
-											<Link className='nav-link' href='conceptCreation'>
-												Concept Creation
+											<Link className='nav-link' href='furniture'>
+												Furniture
 											</Link>
 										</li>
 										<li onClick={() => handeClose()}>
-											<Link className='nav-link' href='3Dvisuals'>
-												3D visuals
-											</Link>
-										</li>
-										<li onClick={() => handeClose()}>
-											<Link className='nav-link' href='moodBoard'>
-												Mood Board
+											<Link className='nav-link' href='decoration'>
+												Decoration
 											</Link>
 										</li>
 									</ul>

@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import PageIntro from "../components/PageIntro";
-function Dvisuals() {
+function Decoration() {
 	return (
 		<div>
-			<PageIntro name='3Dvisuals' />
+			<PageIntro name='Decoration' />
 			<div className='container ptb-110'>
 				<div className='row'>
 					<div className='col-md-8'>
@@ -18,14 +18,14 @@ function Dvisuals() {
 						/>
 					</div>
 					<div className='col-md-4'>
-						<h3 className='my-3'>3D visuals</h3>
+						<h3 className='my-3'>Decoration</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
 							viverra euismod odio, gravida pellentesque urna varius vitae. Sed
 							dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris
 							ultricies, justo eu convallis placerat, felis enim.
 						</p>
-						<h3 className='my-3'>Product Details</h3>
+						<h3 className='my-3'>Service Details</h3>
 						<ul>
 							<li>Lorem Ipsum</li>
 							<li>Dolor Sit Amet</li>
@@ -39,4 +39,4 @@ function Dvisuals() {
 	);
 }
 
-export default Dvisuals;
+export default Decoration;
