@@ -6,16 +6,13 @@ body {
 	font-family: "Montserrat", sans-serif;
 }
 
-.react-slideshow-container{
+.react-slideshow-container {
 	height: 100vh !important;
 	align-items: inherit !important;
 }
 
-
-
-
 #middle {
-	z-index: 10;
+	z-index: 30;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -365,11 +362,11 @@ figure.snip1192 .author h5 span {
 
 .content {
 	position: relative;
-	width: 90%;
+	width: 100%;
 	max-width: 400px;
 	margin: auto;
 	overflow: hidden;
-	width: 273px;
+	/* width: 273px; */
 }
 
 .content .content-overlay {
@@ -436,4 +433,52 @@ figure.snip1192 .author h5 span {
 
 .fadeIn-top {
 	top: 20%;
+}
+
+.abt-btn {
+	background: #a6032f;
+	padding: 0.5rem;
+	color: white;
+	font-weight: bold;
+	width: 100px;
+	transition: all 0.5s ease-in-out;
+}
+
+.abt-btn:hover {
+	background: white;
+	color: #a6032f;
+}
+
+.wk {
+	color: #a6032f;
+}
+
+.wk-t {
+	font-size: 3rem;
+	padding-top: 4rem;
+}
+
+.wk-p {
+	font-weight: bolder;
+	color: #000;
+	font-size: 27px;
+}
+
+.overlay {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 20;
+	right: 0;
+	left: 0;
+}
+.slide-container{
+	position: relative;
+}
+
+.slider-image{
+	height: 100vh;
+	object-fit: cover;
 }

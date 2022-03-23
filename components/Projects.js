@@ -15,7 +15,7 @@ function Projects() {
 				</div>
 				<div className='container'>
 					<div className='row'>
-						<div className='col-sm-3 d-block mb-4'>
+						<div className='col-md-6 d-block mb-4'>
 							<div className='content'>
 								<Link href='/'>
 									<a>
@@ -36,7 +36,7 @@ function Projects() {
 							</div>
 						</div>
 
-						<div className='col-sm-3 d-block mb-4'>
+						<div className='col-md-6 d-block mb-4'>
 							<div className='content'>
 								<Link href='/'>
 									<a>
@@ -57,7 +57,7 @@ function Projects() {
 							</div>
 						</div>
 
-						<div className='col-sm-3 d-block mb-4'>
+						<div className='col-md-6 d-block mb-4'>
 							<div className='content'>
 								<Link href='/'>
 									<a>
@@ -78,7 +78,7 @@ function Projects() {
 							</div>
 						</div>
 
-						<div className='col-sm-3 d-block mb-4'>
+						<div className='col-md-6 d-block mb-4'>
 							<div className='content'>
 								<Link href='/'>
 									<a>
@@ -89,86 +89,6 @@ function Projects() {
 											className='content-image'
 											src='/images/project4.jpg'
 											alt='project4'
-										/>
-										<div className='content-details fadeIn-top'>
-											<h3>This is a title</h3>
-											<p>This is a short description</p>
-										</div>
-									</a>
-								</Link>
-							</div>
-						</div>
-						<div className='col-sm-3 d-block mb-4'>
-							<div className='content'>
-								<Link href='/'>
-									<a>
-										<div className='content-overlay'></div>
-										<Image
-											width={400}
-											height={400}
-											className='content-image'
-											src='/images/project1.jpg'
-											alt='project1'
-										/>
-										<div className='content-details fadeIn-top'>
-											<h3>This is a title</h3>
-											<p>This is a short description</p>
-										</div>
-									</a>
-								</Link>
-							</div>
-						</div>
-						<div className='col-sm-3 d-block mb-4'>
-							<div className='content'>
-								<Link href='/'>
-									<a>
-										<div className='content-overlay'></div>
-										<Image
-											width={400}
-											height={400}
-											className='content-image'
-											src='/images/project1.jpg'
-											alt='project1'
-										/>
-										<div className='content-details fadeIn-top'>
-											<h3>This is a title</h3>
-											<p>This is a short description</p>
-										</div>
-									</a>
-								</Link>
-							</div>
-						</div>
-						<div className='col-sm-3 d-block mb-4'>
-							<div className='content'>
-								<Link href='/'>
-									<a>
-										<div className='content-overlay'></div>
-										<Image
-											width={400}
-											height={400}
-											className='content-image'
-											src='/images/project1.jpg'
-											alt='project1'
-										/>
-										<div className='content-details fadeIn-top'>
-											<h3>This is a title</h3>
-											<p>This is a short description</p>
-										</div>
-									</a>
-								</Link>
-							</div>
-						</div>
-						<div className='col-sm-3 d-block mb-4'>
-							<div className='content'>
-								<Link href='/'>
-									<a>
-										<div className='content-overlay'></div>
-										<Image
-											width={400}
-											height={400}
-											className='content-image'
-											src='/images/project1.jpg'
-											alt='project1'
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>This is a title</h3>

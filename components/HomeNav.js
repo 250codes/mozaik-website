@@ -12,7 +12,7 @@ function Navbar() {
 	//navbar scroll changeBackground function
 	const changeBackground = () => {
 		// console.log(window.scrollY);
-		if (window.scrollY > 100) {
+		if (window.scrollY > 700) {
 			setNavbar(true);
 		} else {
 			setNavbar(false);
@@ -22,6 +22,9 @@ function Navbar() {
 		changeBackground();
 		// adding the event when scroll change background
 		window.addEventListener("scroll", changeBackground);
+		window.addEventListener("resize", () => {
+			console.log(window.innerHeight, window.innerWidth);
+		});
 	});
 
 	const handeClose = () => {
@@ -36,7 +39,7 @@ function Navbar() {
 			className={
 				navbar
 					? "fixed-top d-flex  align-items-center header-scrolled "
-					: "fixed-top d-flex align-items-center header-transparent"
+					: " d-flex align-items-center header-transparent"
 			}>
 			<div className='container d-flex justify-content-between align-items-center  w-100'>
 				<div style={{ cursor: "pointer" }}>

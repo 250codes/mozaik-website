@@ -5,6 +5,7 @@ import Image from "next/image";
 import Head from "../components/Head";
 import image from "../images/contact.png";
 import PageIntro from "../components/PageIntro";
+import Navbar from "../components/Navbar";
 
 function Contact() {
 	const [name, setName] = useState("");
@@ -55,6 +56,7 @@ function Contact() {
 
 	return (
 		<div>
+			<Navbar />
 			<Head title={"Contact Us!"} />
 			<PageIntro name='CONTACT US' />
 			<section className='contact-area ptb-110'>
