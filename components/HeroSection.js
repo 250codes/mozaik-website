@@ -1,6 +1,7 @@
 import React from "react";
 import log from "../images/Mozaik.png";
-import SimpleImageSlider from "react-simple-image-slider";
+import { Fade } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 import Image from "next/image";
 
 function HeroSection() {
@@ -18,15 +19,20 @@ function HeroSection() {
 	return (
 		<>
 			<div className='position-relative '>
-				<div className='slid-opacity'>
-					<SimpleImageSlider
-						width={"100%"}
-						height={"100vh"}
-						images={images}
-						showBullets={true}
-						showNavs={false}
-						autoPlay={true}
-					/>
+				<div className='slide-container'>
+					<Fade 
+					arrows={false}
+					>
+						{images.map(function (fadeImage, index) {
+							return (
+								<div className='each-fade' key={index}>
+									<div className='image-container'>
+										<img src={fadeImage.url} />
+									</div>
+								</div>
+							);
+						})}
+					</Fade>
 				</div>
 				<div
 					className='position-absolute top-50 start-50 translate-middle'
