@@ -1,10 +1,10 @@
 import React from "react";
-import PageIntro from "../components/PageIntro";
 import Image from "next/image";
-function projectManagement() {
+import PageIntro from "../components/PageIntro";
+function Design() {
 	return (
 		<div>
-			<PageIntro name='Project Management' />
+			<PageIntro name='Design' />
 			<div className='container ptb-110'>
 				<div className='row'>
 					<div className='col-md-8'>
@@ -13,20 +13,19 @@ function projectManagement() {
 							layout='intrinsic'
 							width={700}
 							height={475}
-							src='https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+							src='https://images.pexels.com/photos/9436715/pexels-photo-9436715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
 							alt=''
 						/>
 					</div>
-
 					<div className='col-md-4'>
-						<h3 className='my-3'>Project Description</h3>
+						<h3 className='my-3'>Design</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
 							viverra euismod odio, gravida pellentesque urna varius vitae. Sed
 							dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris
 							ultricies, justo eu convallis placerat, felis enim.
 						</p>
-						<h3 className='my-3'>Project Details</h3>
+						<h3 className='my-3'>Service Details</h3>
 						<ul>
 							<li>Lorem Ipsum</li>
 							<li>Dolor Sit Amet</li>
@@ -40,4 +39,4 @@ function projectManagement() {
 	);
 }
 
-export default projectManagement;
+export default Design;

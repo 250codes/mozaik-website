@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import log from "../images/Mozaik.png";
+import Link from "next/link";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
@@ -37,11 +38,6 @@ export default function Footer() {
 										<FaInstagram style={{ color: "white" }} />
 									</a>
 								</li>
-								<li>
-									<a target='_blank' href='index.htm#'>
-										<FaYoutube style={{ color: "white" }} />
-									</a>
-								</li>
 							</ul>
 						</div>
 					</div>
@@ -50,19 +46,22 @@ export default function Footer() {
 							<h3>Services</h3>
 							<ul className='footer-services-list'>
 								<li>
-									<a href='service-details.html'>Consultancy</a>
+								<Link className='nav-link' href='consultancy'>Consultancy</Link>
 								</li>
 								<li>
-									<a href='service-details.html'>Mood Boards</a>
+								<Link className='nav-link' href='design'>Design</Link>
 								</li>
 								<li>
-									<a href='service-details.html'>Project management</a>
+								<Link className='nav-link' href='productDesign'>Products Design</Link>
 								</li>
 								<li>
-									<a href='service-details.html'>Budget Planning</a>
+								<Link className='nav-link' href='finishing'>Finishing and Partitioninng works</Link>
 								</li>
 								<li>
-									<a href='service-details.html'>Interior setup</a>
+								<Link className='nav-link' href='furniture'>Furniture</Link>
+								</li>
+								<li>
+								<Link className='nav-link' href='decoration'>Decoration</Link>
 								</li>
 							</ul>
 						</div>
@@ -72,16 +71,13 @@ export default function Footer() {
 							<h3>Quick Links</h3>
 							<ul className='quick-links-list'>
 								<li>
-									<a href='about.html'>Home</a>
+								<Link className='nav-link' href='/'>Home</Link>
 								</li>
 								<li>
-									<a href='blog.html'>About</a>
+								<Link className='nav-link' href='about'>About</Link>
 								</li>
 								<li>
-									<a href='contact.html'>Contact</a>
-								</li>
-								<li>
-									<a href='services.html'>Projects</a>
+								<Link className='nav-link' href='Contact'>Contact</Link>
 								</li>
 							</ul>
 						</div>
