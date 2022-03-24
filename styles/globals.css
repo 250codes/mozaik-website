@@ -448,15 +448,13 @@ figure.snip1192 .author h5 span {
 	background: rgb(255, 237, 237);
 }
 
-.abt-btn a:hover{
+.abt-btn a:hover {
 	color: #a6032f !important;
-
 }
 
-.abt-btn a{
+.abt-btn a {
 	color: white !important;
 }
-
 
 .wk {
 	color: #a6032f;
@@ -483,12 +481,17 @@ figure.snip1192 .author h5 span {
 	right: 0;
 	left: 0;
 }
-.slide-container{
+.slide-container {
 	position: relative;
 }
 
-.slider-image{
+.slider-image {
 	height: 100vh;
 	width: 100vw;
 	object-fit: cover;
+}
+
+.testimonial {
+	background: #fbfbfbbd;
+	padding: 2rem;
 }

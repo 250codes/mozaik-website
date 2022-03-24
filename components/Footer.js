@@ -6,9 +6,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
 	return (
-		<footer
-			className='footer-area'
-			style={{ boxShadow: "0px 0px 10px rgba(0,0,0,0.1)" }}>
+		<footer className='footer-area'>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-lg-3 col-md-6 col-sm-6'>
@@ -46,22 +44,34 @@ export default function Footer() {
 							<h3>Services</h3>
 							<ul className='footer-services-list'>
 								<li>
-								<Link className='nav-link' href='consultancy'>Consultancy</Link>
+									<Link className='nav-link' href='consultancy'>
+										Consultancy
+									</Link>
 								</li>
 								<li>
-								<Link className='nav-link' href='design'>Design</Link>
+									<Link className='nav-link' href='design'>
+										Design
+									</Link>
 								</li>
 								<li>
-								<Link className='nav-link' href='productDesign'>Products Design</Link>
+									<Link className='nav-link' href='productDesign'>
+										Products Design
+									</Link>
 								</li>
 								<li>
-								<Link className='nav-link' href='finishing'>Finishing and Partitioninng works</Link>
+									<Link className='nav-link' href='finishing'>
+										Finishing and Partitioninng works
+									</Link>
 								</li>
 								<li>
-								<Link className='nav-link' href='furniture'>Furniture</Link>
+									<Link className='nav-link' href='furniture'>
+										Furniture
+									</Link>
 								</li>
 								<li>
-								<Link className='nav-link' href='decoration'>Decoration</Link>
+									<Link className='nav-link' href='decoration'>
+										Decoration
+									</Link>
 								</li>
 							</ul>
 						</div>
@@ -71,13 +81,19 @@ export default function Footer() {
 							<h3>Quick Links</h3>
 							<ul className='quick-links-list'>
 								<li>
-								<Link className='nav-link' href='/'>Home</Link>
+									<Link className='nav-link' href='/'>
+										Home
+									</Link>
 								</li>
 								<li>
-								<Link className='nav-link' href='about'>About</Link>
+									<Link className='nav-link' href='about'>
+										About
+									</Link>
 								</li>
 								<li>
-								<Link className='nav-link' href='Contact'>Contact</Link>
+									<Link className='nav-link' href='Contact'>
+										Contact
+									</Link>
 								</li>
 							</ul>
 						</div>

@@ -24,7 +24,7 @@ const responsive = {
 
 function Testimonial() {
 	return (
-		<div className='p-10' style={{ padding: "2rem" }}>
+		<div className='p-10 testimonial'>
 			<div className='intro'>
 				<h2 className='text-center'>Testimonials </h2>
 				<p className='text-center'>

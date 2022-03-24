@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function WorkWithUs() {
 	return (
-		<div className='container'>
+		<div className='container mb-3'>
 			<div className='row'>
 				<div className='col-md-4 wk-t'>
 					<h1 className='wk'>Work</h1>
