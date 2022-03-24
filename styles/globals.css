@@ -480,5 +480,6 @@ figure.snip1192 .author h5 span {
 
 .slider-image{
 	height: 100vh;
+	width: 100vw;
 	object-fit: cover;
 }
