@@ -78,7 +78,7 @@ a {
 	font-family: "Raleway", sans-serif;
 	font-size: 20px;
 	font-weight: 600;
-	color: #ffc107;
+	color: #000000;
 	white-space: nowrap;
 	transition: 0.3s;
 }
@@ -445,9 +445,18 @@ figure.snip1192 .author h5 span {
 }
 
 .abt-btn:hover {
-	background: white;
-	color: #a6032f;
+	background: rgb(255, 237, 237);
 }
+
+.abt-btn a:hover{
+	color: #a6032f !important;
+
+}
+
+.abt-btn a{
+	color: white !important;
+}
+
 
 .wk {
 	color: #a6032f;

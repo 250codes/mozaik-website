@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import PageIntro from "../components/PageIntro";
+import Navbar from "../components/Navbar";
 function Decoration() {
 	return (
 		<div>
+			<Navbar />
 			<PageIntro name='Decoration' />
 			<div className='container ptb-110'>
 				<div className='row'>

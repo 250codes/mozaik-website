@@ -1,9 +1,11 @@
 import React from 'react'
 import PageIntro from "../components/PageIntro";
 import Image from 'next/image';
+import Navbar from "../components/Navbar";
 function productDesign() {
   return (
 		<div>
+			<Navbar/>
 			<PageIntro name='Product Design' />
 			<div className='container ptb-110'>
 				<div className='row'>

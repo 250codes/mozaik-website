@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import PageIntro from "../components/PageIntro";
+import Navbar from "../components/Navbar";
 function Finishing() {
 	return (
 		<div>
+			<Navbar/>
 			<PageIntro name='Finishing and Partitioning works' />
 			<div className='container ptb-110'>
 				<div className='row'>
