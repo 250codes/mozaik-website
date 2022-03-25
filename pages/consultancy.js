@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import PageIntro from "../components/PageIntro";
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
+import Head from "../components/Head";
 function Consultancy() {
 	return (
 		<div>
-			<Navbar/>
+			<Navbar />
+			<Head title={"Consultaion"} />
 			<PageIntro name='Consultancy' />
 			<div className='container ptb-110'>
 				<div className='row'>

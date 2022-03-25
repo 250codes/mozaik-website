@@ -2,10 +2,12 @@ import React from "react";
 import Image from "next/image";
 import PageIntro from "../components/PageIntro";
 import Navbar from "../components/Navbar";
+import Head from "../components/Head";
 function Furniture() {
 	return (
 		<div>
-			<Navbar/>
+			<Navbar />
+			<Head title={"Furniture"} />
 			<PageIntro name='Furniture' />
 			<div className='container ptb-110'>
 				<div className='row'>

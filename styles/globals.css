@@ -391,6 +391,7 @@ figure.snip1192 .author h5 span {
 
 .content-image {
 	width: 100%;
+	object-fit: cover;
 }
 
 .content-details {

@@ -2,10 +2,12 @@ import React from 'react'
 import PageIntro from "../components/PageIntro";
 import Image from 'next/image';
 import Navbar from "../components/Navbar";
+import Head from "../components/Head";
 function productDesign() {
   return (
 		<div>
-			<Navbar/>
+			<Navbar />
+			<Head title={"Product Design"} />
 			<PageIntro name='Product Design' />
 			<div className='container ptb-110'>
 				<div className='row'>
@@ -13,7 +15,8 @@ function productDesign() {
 						<Image
 							className='img-fluid w-100'
 							layout='intrinsic'
-							width={700} height={475}
+							width={700}
+							height={475}
 							src='https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
 							alt=''
 						/>

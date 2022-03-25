@@ -2,10 +2,12 @@ import React from "react";
 import Image from "next/image";
 import PageIntro from "../components/PageIntro";
 import Navbar from "../components/Navbar";
+import Head from "../components/Head";
 function Decoration() {
 	return (
 		<div>
 			<Navbar />
+			<Head title={"Decoration"} />
 			<PageIntro name='Decoration' />
 			<div className='container ptb-110'>
 				<div className='row'>
