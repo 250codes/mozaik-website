@@ -17,7 +17,7 @@ function Projects() {
 					<div className='row'>
 						<div className='col-md-6 d-block mb-4'>
 							<div className='content'>
-								<Link href='/'>
+								<Link href='projects'>
 									<a>
 										<div className='content-overlay'></div>
 										<Image
@@ -38,7 +38,7 @@ function Projects() {
 
 						<div className='col-md-6 d-block mb-4'>
 							<div className='content'>
-								<Link href='/'>
+								<Link href='projects'>
 									<a>
 										<div className='content-overlay'></div>
 										<Image
@@ -59,7 +59,7 @@ function Projects() {
 
 						<div className='col-md-6 d-block mb-4'>
 							<div className='content'>
-								<Link href='/'>
+								<Link href='projects'>
 									<a>
 										<div className='content-overlay'></div>
 										<Image
@@ -80,7 +80,7 @@ function Projects() {
 
 						<div className='col-md-6 d-block mb-4'>
 							<div className='content'>
-								<Link href='/'>
+								<Link href='projects'>
 									<a>
 										<div className='content-overlay'></div>
 										<Image
