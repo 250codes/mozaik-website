@@ -12,9 +12,9 @@ export default function Footer() {
 					<div className='col-lg-3 col-md-6 col-sm-6'>
 						<div className='single-footer-widget'>
 							<div className='logo'>
-								<a href='/'>
+								<Link href='/'>
 									<Image src={log} width='300px' height='150px' alt='image' />
-								</a>
+								</Link>
 								<p>
 									Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
 									maecenas accumsan.
