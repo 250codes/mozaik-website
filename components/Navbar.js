@@ -5,6 +5,7 @@ import log from "../images/Mozaik.png";
 function Navbar() {
 	const [dropDown, setDropDown] = useState(false);
 	const [deepdropDown, setDeepDropDown] = useState(false);
+	const [deep2dropDown, setDeep2DropDown] = useState(false);
 	const [mobile, setMobile] = useState(false);
 	//navbar scroll when active state
 	const [navbar, setNavbar] = useState(false);
@@ -70,9 +71,8 @@ function Navbar() {
 						</li>
 
 						<li className='dropdown'>
-							<a href='#'>
-								<span onClick={() => setDropDown(!dropDown)}>Services</span>{" "}
-								<i className='bi bi-chevron-down'></i>
+							<a href='#' onMouseEnter={() => setDropDown(!dropDown)}>
+								<span>Services</span> <i className='bi bi-chevron-down'></i>
 							</a>
 							<ul className={dropDown ? "dropdown-active" : ""}>
 								<li className='dropdown'>
@@ -102,12 +102,12 @@ function Navbar() {
 								</li>
 								<li className='dropdown'>
 									<a href='#'>
-										<span onClick={() => setDeepDropDown(!deepdropDown)}>
+										<span onClick={() => setDeep2DropDown(!deep2dropDown)}>
 											Project Management
 										</span>{" "}
 										<i className='bi bi-chevron-right'></i>
 									</a>
-									<ul className={deepdropDown ? "dropdown-active" : ""}>
+									<ul className={deep2dropDown ? "dropdown-active" : ""}>
 										<li onClick={() => handeClose()}>
 											<Link className='nav-link' href='finishing'>
 												Finishing and partitioning works
