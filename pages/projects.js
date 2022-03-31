@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa";
 import Head from "../components/Head";
 import Image from "next/image";
 import Navbar from "../components/Navbar"
@@ -93,6 +95,12 @@ function projects() {
 						/>
 					</div>
 				</div>
+				<div className='abt-btn mt-2'>
+						<Link href='/#projects' id='abt-btn'>
+							More Projects
+						</Link>
+						<FaArrowRight style={{ color: "white", marginLeft: "4px" }} />
+					</div>
 			</div>
 		</div>
 	);

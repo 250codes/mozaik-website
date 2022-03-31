@@ -40,14 +40,16 @@ function HeroSection() {
 				<div
 					className='position-absolute top-50 start-50 translate-middle'
 					id='middle'>
+						<center>
+
 					<Image
 						src={log}
 						alt='logo'
 						width='300'
 						height='200'
-						className='main-logo'
 					/>
-					<h1 className='text-light'>Connecting people with their style</h1>
+					<h3 className='company-tag'>Professional Office interior & space planning</h3>
+						</center>
 				</div>
 			</div>
 		</>
