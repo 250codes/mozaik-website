@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
 html,
 body {
 	padding: 0;
@@ -441,7 +442,7 @@ figure.snip1192 .author h5 span {
 	padding: 0.5rem;
 	color: white;
 	font-weight: bold;
-	width: 100px;
+	width:fit-content;
 	transition: all 0.5s ease-in-out;
 }
 
@@ -495,4 +496,12 @@ figure.snip1192 .author h5 span {
 .testimonial {
 	background: #fbfbfbbd;
 	padding: 2rem;
+}
+
+.company-tag{
+	font-size: 1.5rem;
+	font-weight: bolder;
+	color: #ffffff;
+	font-family: 'Courier New', Courier, monospace;
+	font-style: italic;
 }

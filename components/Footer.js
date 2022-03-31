@@ -12,7 +12,7 @@ export default function Footer() {
 					<div className='col-lg-3 col-md-6 col-sm-6'>
 						<div className='single-footer-widget'>
 							<div className='logo'>
-								<a href='index.htm'>
+								<a href='/'>
 									<Image src={log} width='300px' height='150px' alt='image' />
 								</a>
 								<p>
@@ -22,7 +22,7 @@ export default function Footer() {
 							</div>
 							<ul className='social'>
 								<li>
-									<a target='_blank' href='index.htm#'>
+									<a target='_blank' href='/'>
 										<FaFacebookF style={{ color: "white" }} />
 									</a>
 								</li>

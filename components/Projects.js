@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Projects() {
 	return (
-		<section className=' bg-f2f6f9 ptb-20' style={{ padding: "2rem" }}>
+		<section className=' bg-f2f6f9 ptb-20' style={{ padding: "2rem" }} id="projects">
 			<div className=''>
 				<div className='section-title'>
 					<h2>PortFolio</h2>
