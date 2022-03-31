@@ -110,7 +110,7 @@ a {
 	transition: 0.3s;
 }
 .navbar .dropdown ul li {
-	min-width: 200px;
+	min-width: 300px;
 }
 .navbar .dropdown ul a {
 	padding: 10px 20px;
