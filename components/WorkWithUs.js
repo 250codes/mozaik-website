@@ -17,25 +17,15 @@ function WorkWithUs() {
 						thought out.
 					</p>
 					<p>
-						Within the NILSEN agency, we design and build workspaces dedicated
-						as much to the efficiency as to the well-being of the people who
-						work there. Ergonomics, acoustics, lighting, etc. Each company has
-						specific needs and we respond to them thanks to a team with multiple
-						skills. We adapt to the types of trades, to the corporate culture as
-						well as to the diversity of surfaces to be fitted out. Whether you
-						are independent, with a simple office, or whether you have planned
-						to accommodate several hundred employees. Our design office, our
-						development advisers and our technicians in the field support you,
-						depending on the stage at which you contact us, to carry out your
-						projects from floor to ceiling, including furniture. Individual
-						offices or collaborative spaces, meeting rooms or outdoor spaces… We
-						bring your projects to life.
+					We will work closely with your team to establish a thorough understanding of your interior space and work activities in order to create the best possible solution for your office layout and design. We are trained to translate the results of a workflow analysis and other tools into situation-specific interior solutions. All aspects of office space design and planning will support the implementation of your business’ facility strategy and the well-being of your employees and customers.
 					</p>
-					<div className='abt-btn'>
-						<Link href='about' id='abt-btn'>
-							Learn More
-						</Link>
-					</div>
+					<center>
+						<div className='abt-btn'>
+							<Link href='about' id='abt-btn'>
+								Learn More
+							</Link>
+						</div>
+					</center>
 				</div>
 			</div>
 		</div>

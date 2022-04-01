@@ -94,8 +94,8 @@ function Navbar() {
 											</Link>
 										</li>
 										<li onClick={() => handeClose()}>
-											<Link className='nav-link' href='productDesign'>
-												Products Design
+											<Link className='nav-link' href='spacePlanning'>
+											Space planning and refurbishment
 											</Link>
 										</li>
 									</ul>

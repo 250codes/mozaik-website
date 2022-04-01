@@ -7,9 +7,12 @@ function Consultancy() {
 	return (
 		<div>
 			<Navbar />
-			<Head title={"Consultaion"} />
+			<Head title={"Consultancy"} />
 			<PageIntro name='Consultancy' />
 			<div className='container ptb-110'>
+				<p>
+				From a blank canvas, we work to create spaces that inspire staff, enrich culture and improve recruitment and retention. Ultimately, It will help to bring people together to create the products and services that will make your business a success.
+				</p>
 				<div className='row'>
 					<div className='col-md-8'>
 						<Image
@@ -24,18 +27,8 @@ function Consultancy() {
 					<div className='col-md-4'>
 						<h3 className='my-3'>Consultancy</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-							viverra euismod odio, gravida pellentesque urna varius vitae. Sed
-							dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris
-							ultricies, justo eu convallis placerat, felis enim.
+						Discover, outline and advise. We take the time to understand the requirements of your business and assess how it currently works. We will complete a full workplace analysis of your current office design, including a site survey, plus storage audit and analysis. We will also conduct employee surveys to understand how they work and what can be done to improve their productivity.
 						</p>
-						<h3 className='my-3'>Service Details</h3>
-						<ul>
-							<li>Lorem Ipsum</li>
-							<li>Dolor Sit Amet</li>
-							<li>Consectetur</li>
-							<li>Adipiscing Elit</li>
-						</ul>
 					</div>
 				</div>
 			</div>

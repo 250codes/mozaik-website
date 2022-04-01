@@ -23,8 +23,7 @@ function Vision() {
 
 					<div className='col-lg-7'>
 						<h3 className='pt-0 pt-lg-5'>
-							Sit veniam excepteur quis veniam ad nulla pariatur ex aliquip
-							irure anim ex ad.
+						End-to-end turnkey office design and build
 						</h3>
 
 						<ul className='nav nav-pills mb-3'>

@@ -7,10 +7,15 @@ function Projects() {
 		<section className=' bg-f2f6f9 ptb-20' style={{ padding: "2rem" }} id="projects">
 			<div className=''>
 				<div className='section-title'>
-					<h2>PortFolio</h2>
+					<h2>Projects</h2>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Experts in workspaces, we design and carry out your projects by offering solutions that meet the specific objectives of your company.
+
+					We work on ergonomics, light and acoustics according to your wishes and we adapt to any constraints of the building.
+
+					We can intervene as soon as the shell is finished.
+
+					Whatever your project. Whether you are independent, with a simple office, or whether you have planned to accommodate several hundred employees.
 					</p>
 				</div>
 				<div className='container'>
