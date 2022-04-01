@@ -10,6 +10,9 @@ function Furniture() {
 			<Head title={"Furniture"} />
 			<PageIntro name='Furniture' />
 			<div className='container ptb-110'>
+				<p>
+				With everything designed, planned and agreed upon, we get to work building your ideal office. with our trusted network of contractors and suppliers we conduct the work.
+				</p>
 				<div className='row'>
 					<div className='col-md-8'>
 						<Image
@@ -24,18 +27,11 @@ function Furniture() {
 					<div className='col-md-4'>
 						<h3 className='my-3'>Furniture</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-							viverra euismod odio, gravida pellentesque urna varius vitae. Sed
-							dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris
-							ultricies, justo eu convallis placerat, felis enim.
+						We understand that every business is different, which is why we're confident that through our vast experience, we have the right products to kit out any office environment. We design and source furniture and decorations directly from the local manufactures, which means that we avoid extra costs that may be put on by any third parties – a saving that we pass on to our clients. No matter what your company is looking to achieve – 
+with our custom-made approach, we have the right solution for you. We are able to offer you with any elements you may require, including specialist chairs and tables, even dividers and panels that can match your corporate colours and therefore create your office's specific aesthetics.
+
 						</p>
-						<h3 className='my-3'>Service Details</h3>
-						<ul>
-							<li>Lorem Ipsum</li>
-							<li>Dolor Sit Amet</li>
-							<li>Consectetur</li>
-							<li>Adipiscing Elit</li>
-						</ul>
+
 					</div>
 				</div>
 			</div>

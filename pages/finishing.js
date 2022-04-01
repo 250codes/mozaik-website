@@ -10,6 +10,9 @@ function Finishing() {
 			<Head title={"Finishing"} />
 			<PageIntro name='Finishing and Partitioning works' />
 			<div className='container ptb-110'>
+				<p>
+			From a blank canvas through to the project handover and aftercare, we work to create spaces that inspire staff, enrich culture and improve recruitment and retention. Ultimately, they will help to bring people together to create the products and services that will make your business a success.
+				</p>
 				<div className='row'>
 					<div className='col-md-8'>
 						<Image
@@ -24,18 +27,10 @@ function Finishing() {
 					<div className='col-md-4'>
 						<h3 className='my-3'>Finishing and Partitioning works</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-							viverra euismod odio, gravida pellentesque urna varius vitae. Sed
-							dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris
-							ultricies, justo eu convallis placerat, felis enim.
+						Whether you're a property developer, landlord or a business that is opening in a new location, a turnkey office build is a great solution in ensuring the entire process runs as efficiently and seamlessly as possible. The demands on your time are already likely to be heavy, so rather than you dealing with multiple services and contractors, a turnkey office design and build sees you deal with just a single point of contact.
+With a single contact, you'll also been suring that the build quality will be kept to the same high standard; no taking chances on different contractors who may work differently from others. You'll be working with office fit out experts who will manage the project from start to finish; so, no worrying about red tape or complicated regulations.
+
 						</p>
-						<h3 className='my-3'>Service Details</h3>
-						<ul>
-							<li>Lorem Ipsum</li>
-							<li>Dolor Sit Amet</li>
-							<li>Consectetur</li>
-							<li>Adipiscing Elit</li>
-						</ul>
 					</div>
 				</div>
 			</div>
