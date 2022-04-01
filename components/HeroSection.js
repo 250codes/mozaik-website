@@ -29,7 +29,7 @@ function HeroSection() {
 							return (
 								<div className='each-fade' key={index}>
 									<div className='image-container'>
-										<img src={fadeImage.url}  className="slider-image"/>
+										<img src={fadeImage.url} className='slider-image' />
 									</div>
 								</div>
 							);
