@@ -10,11 +10,11 @@ function Decoration() {
 			<Head title={"Decoration"} />
 			<PageIntro name='Decoration' />
 			<div className='container ptb-110'>
-				<p>
+				{/* <p>
 					{
 						"Once a design is agreed upon, we will then develop a timeline that works for you; keeping any possible disruption to your business to a minimum. With sufficient planning, you can make a seamless transition into your new space (regardless of whether you're staying in the same building or moving to a new one)."
 					}
-				</p>
+				</p> */}
 				<div className='row'>
 					<div className='col-md-8'>
 						<Image
@@ -27,7 +27,7 @@ function Decoration() {
 						/>
 					</div>
 					<div className='col-md-4'>
-						<h3 className='my-3'>Decoration</h3>
+						<h3 className='my-3 text-dark'>Decoration</h3>
 						<p>
 							{`
 							Staff welfare and productivity should be paramount to your

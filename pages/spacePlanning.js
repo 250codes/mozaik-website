@@ -10,12 +10,12 @@ function SpacePlanning() {
 			<Head title={"Space planning and refurbishment"} />
 			<PageIntro name='Space planning and refurbishment' />
 			<div className='container ptb-110'>
-				<p>
+				{/* <p>
 					{`	From a blank canvas, we work to create spaces that inspire staff,
 					enrich culture and improve recruitment and retention. Ultimately, It
 					will help to bring people together to create the products and services
 					that will make your business a success.`}
-				</p>
+				</p> */}
 				<div className='row'>
 					<div className='col-md-8'>
 						<Image
@@ -29,7 +29,8 @@ function SpacePlanning() {
 					</div>
 
 					<div className='col-md-4'>
-						<h3 className='my-3'>Space planning and refurbishment</h3>
+						<h3 className='my-3 text-dark'>Space planning and refurbishment</h3>
+						<p>{`From a blank canvas, we work to create spaces that inspire staff, enrich culture and improve recruitment and retention. Ultimately, It will help to bring people together to create the products and services that will make your business a success.`}</p>
 						<p>
 							{`Whether it's a refresh of your existing spaces, a complete office overhaul or anything else in between, you can rest assured that through our experience, skills and approach, your workplace environment will grow strong with Mozaik Concepts.
 We love to see older workplaces undergo incredible renovations to create an utterly unique and optimised working environment.`}
