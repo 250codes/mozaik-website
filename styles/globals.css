@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 html,
 body {
 	padding: 0;
@@ -503,4 +504,22 @@ figure.snip1192 .author h5 span {
 	font-weight: bolder;
 	color: #ffffff;
 	font-family: "Courier New", Courier, monospace;
+}
+.workWithUs {
+	font-family: "Open Sans", sans-serif;
+}
+
+.workWithUs p {
+	font-size: 1rem;
+	color: #111111;
+}
+
+@media only screen and (max-width: 595px) {
+	.first {
+		width: 100% !important;
+	}
+
+	.third {
+		width: 100% !important;
+	}
 }

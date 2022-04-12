@@ -21,7 +21,7 @@ function WorkWithUs() {
 					</p>
 					<center>
 						<div className='abt-btn'>
-							<Link href='about' id='abt-btn'>
+							<Link href='workWithUs' id='abt-btn'>
 								Learn More
 							</Link>
 						</div>
