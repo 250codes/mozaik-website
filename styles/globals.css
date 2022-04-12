@@ -5,7 +5,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 .react-slideshow-container {
@@ -514,6 +514,9 @@ figure.snip1192 .author h5 span {
 	color: #111111;
 }
 
+.section-title h2 {
+	color: #000 !important;
+}
 @media only screen and (max-width: 595px) {
 	.first {
 		width: 100% !important;

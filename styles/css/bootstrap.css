@@ -9287,7 +9287,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #212529;
+	color: white;
 	font-weight: 700;
 	font-family: Dosis, sans-serif;
 }
@@ -9327,8 +9327,9 @@ img {
 }
 .section-title {
 	text-align: center;
-	max-width: 670px;
+	/* max-width: 670px; */
 	margin: -6px auto 60px;
+	color: black;
 }
 .section-title span {
 	display: block;
@@ -9346,7 +9347,7 @@ img {
 	font-weight: 700;
 }
 .section-title p {
-	max-width: 520px;
+	/* max-width: 520px; */
 	margin: 10px auto 0;
 }
 .btn {
@@ -14219,8 +14220,8 @@ blockquote:before {
 .footer-area {
 	position: relative;
 	z-index: 1;
-	padding-top: 100px;
-	background-color: #ffff;
+	padding-top: 3rem;
+	background-color: #000000;
 }
 .single-footer-widget {
 	margin-bottom: 30px;
@@ -14296,7 +14297,7 @@ blockquote:before {
 }
 .single-footer-widget .footer-services-list li a {
 	display: inline-block;
-	color: black;
+	color: white;
 }
 .single-footer-widget .footer-services-list li a:hover {
 	color: #ff4800;
@@ -14311,12 +14312,12 @@ blockquote:before {
 }
 .single-footer-widget .quick-links-list li {
 	margin-bottom: 12px;
-	color:black;
+	color: black;
 	font-size: 14px;
 }
 .single-footer-widget .quick-links-list li a {
 	display: inline-block;
-	color:black;
+	color: white;
 }
 .single-footer-widget .quick-links-list li a:hover {
 	color: #ff4800;
@@ -14331,7 +14332,7 @@ blockquote:before {
 }
 .single-footer-widget .footer-contact-list li {
 	margin-bottom: 12px;
-	color: black;
+	color: white;
 	font-size: 14px;
 	line-height: 1.7;
 }
@@ -14351,7 +14352,7 @@ blockquote:before {
 }
 .copyright-area {
 	background-color: #000;
-	margin-top: 70px;
+	/* margin-top: 70px; */
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
