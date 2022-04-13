@@ -10,11 +10,12 @@ function Design() {
 			<Head title={"Design"} />
 			<PageIntro name='Design' />
 			<div className='container ptb-55'>
+				<h3 className='my-3 text-dark'>Design</h3>
 				<p>
-					Mozaik concepts design team can provide you with a professional
+					{`Mozaik concepts design team can provide you with a professional
 					solution to create an imaginative, functional, and stylish office
 					environment that meets the unique needs of the contemporary business
-					world.
+					world.`}
 				</p>
 				<div className='row'>
 					<div className='col-md-8'>
@@ -28,7 +29,6 @@ function Design() {
 						/>
 					</div>
 					<div className='col-md-4'>
-						<h3 className='my-3 text-dark'>Design</h3>
 						<p>{`Mozaik concepts design team can provide you with a professional solution to create an imaginative, functional, and stylish office environment that meets the unique needs of the contemporary business world.`}</p>
 						<p>{`Our Design office designs the layout of projects of all sizes, whether you have a bare site of 1000 m², or simply want to furnish your office. we work according to your needs around ergonomics, light and acoustics, in particular. After collecting your expectations and identifying the constraints of the building, the design office endeavours to offer personalized solutions.`}</p>
 					</div>

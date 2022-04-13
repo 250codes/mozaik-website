@@ -10,6 +10,7 @@ function Furniture() {
 			<Head title={"Furniture"} />
 			<PageIntro name='Furniture' />
 			<div className='container ptb-55'>
+				<h3 className='my-3 text-dark'>Furniture</h3>
 				<p>
 					{`With everything designed, planned and agreed upon, we get to work building your ideal office. with our trusted network of contractors and suppliers we conduct the work.`}
 				</p>
@@ -25,7 +26,6 @@ function Furniture() {
 						/>
 					</div>
 					<div className='col-md-4'>
-						<h3 className='my-3 text-dark'>Furniture</h3>
 						<p>
 							{`We understand that every business is different, which is why we're
 							confident that through our vast experience, we have the right
