@@ -3,9 +3,9 @@ import Link from "next/link";
 
 function WorkWithUs() {
 	return (
-		<div className='container mb-3'>
+		<div className='container mb-5'>
 			<div className='row'>
-				<div className='col-md-4 wk-t'>
+				<div className='col-md-4 wk-t mt-md-4'>
 					<h1 className='wk'>Work</h1>
 					<h1 className='wk' style={{ marginTop: "-1rem" }}>
 						With us

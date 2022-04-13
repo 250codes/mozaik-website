@@ -71,12 +71,12 @@ function Navbar() {
 						</li>
 
 						<li className='dropdown'>
-							<a href='#' onMouseEnter={() => setDropDown(!dropDown)}>
+							<a href='consultancy' onMouseEnter={() => setDropDown(!dropDown)}>
 								<span>Services</span> <i className='bi bi-chevron-down'></i>
 							</a>
 							<ul className={dropDown ? "dropdown-active" : ""}>
 								<li className='dropdown'>
-									<a href='#'>
+									<a href='consultancy'>
 										<span onClick={() => setDeepDropDown(!deepdropDown)}>
 											Consultancy and Conceptualisation
 										</span>{" "}
@@ -101,7 +101,7 @@ function Navbar() {
 									</ul>
 								</li>
 								<li className='dropdown'>
-									<a href='#'>
+									<a href='finishing'>
 										<span onClick={() => setDeep2DropDown(!deep2dropDown)}>
 											Project Management
 										</span>{" "}

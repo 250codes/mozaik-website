@@ -11,16 +11,16 @@ function workWithUs() {
 			<PageIntro name='Work With Us' />
 			<h1 className='section-title mt-4 text-dark'>Why work with us ?</h1>
 			<p
-				className='mx-auto text-center text-dark w-60'
-				>{`Choosing to create new office interiors represents a significant financial commitment for your company, so the overarching question you'll be asking will be what benefits for my business will make this particular investment worthwhile?
-`}</p>
+				className='ml-4 text-center text-dark w-60 font-italic'
+				>{`Choosing to create new office interiors represents a significant financial commitment for your company, so the overarching question you'll be asking will be what benefits for my business will make this particular investment worthwhile?`}
+			</p>
 
 			<section className='w-75 p-3 first'>
-				<h4 className='ml-3'>
-					{`Ultimately, investing in a new office fit out can put your business in a
-				better position to:`}
-				</h4>
-				<div className='ml-4 mt-4'>
+				<h6 className='ml-4 text-dark'>
+					Ultimately, investing in a new office fit out can put your business in a
+				better position to:
+				</h6>
+				<div className='ml-4 mt-2'>
 					<h5 className='font-weight-bold text-dark'>
 						Increase productivity rates
 					</h5>
@@ -68,7 +68,7 @@ function workWithUs() {
 `}</p>
 				</div>
 			</section>
-			<section className='w-75 p-3 text-dark mt-4 mb-4 third'>
+			<section className='w-75 ml-4 p-3 text-dark mt-4 mb-4 third'>
 				<p>{`A key step in the layout, the furniture gives life to a space.`}</p>
 				<p>{`Thinking about furniture is not simply choosing a desk from a catalogue. It is much more than that. It is rather a question of thinking of the spaces as a whole to serve a vision, uses and objectives of ergonomics, acoustics and luminosity, but also of aesthetics and comfort.`}</p>
 				<p>{`We adapt to working methods, to combine productivity and optimization of spaces, always with the satisfaction and efficiency of all employees in mind. collaborators.`}</p>

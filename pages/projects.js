@@ -95,7 +95,7 @@ function projects() {
 						/>
 					</div>
 				</div>
-				<div className='abt-btn mt-2'>
+				<div className='abt-btn mt-2 mb-3'>
 						<Link href='/#projects' id='abt-btn'>
 							More Projects
 						</Link>

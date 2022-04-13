@@ -9,7 +9,7 @@ function Finishing() {
 			<Navbar />
 			<Head title={"Finishing"} />
 			<PageIntro name='Finishing and Partitioning works' />
-			<div className='container ptb-110'>
+			<div className='container ptb-55'>
 				<div className='row'>
 					<div className='col-md-8'>
 						<Image

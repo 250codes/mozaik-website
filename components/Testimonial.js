@@ -26,7 +26,7 @@ function Testimonial() {
 	return (
 		<div className='p-10 testimonial'>
 			<div className='intro'>
-				<h2 className='text-center'>Testimonials </h2>
+				<h2 className='text-center text-secondary mt-5'>Testimonials </h2>
 				<p className='text-center'>
 					Our customers love us! Read what they have to say below. Aliquam sed
 					justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.

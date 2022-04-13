@@ -9,10 +9,10 @@ function Furniture() {
 			<Navbar />
 			<Head title={"Furniture"} />
 			<PageIntro name='Furniture' />
-			<div className='container ptb-110'>
-				{/* <p>
+			<div className='container ptb-55'>
+				<p>
 					{`With everything designed, planned and agreed upon, we get to work building your ideal office. with our trusted network of contractors and suppliers we conduct the work.`}
-				</p> */}
+				</p>
 				<div className='row'>
 					<div className='col-md-8'>
 						<Image

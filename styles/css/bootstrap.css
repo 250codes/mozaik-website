@@ -9311,6 +9311,10 @@ p:last-child {
 	padding-top: 110px;
 	padding-bottom: 110px;
 }
+.ptb-55 {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
 img {
 	max-width: 100%;
 	height: auto;

@@ -9,13 +9,13 @@ function Consultancy() {
 			<Navbar />
 			<Head title={"Consultancy"} />
 			<PageIntro name='Consultancy' />
-			<div className='container ptb-110'>
-				{/* <p>
-					{`From a blank canvas, we work to create spaces that inspire staff,
+			<div className='container ptb-55'>
+				 <p>
+					From a blank canvas, we work to create spaces that inspire staff,
 					enrich culture and improve recruitment and retention. Ultimately, It
 					will help to bring people together to create the products and services
-					that will make your business a success.`}
-				</p> */}
+					that will make your business a success.
+				</p>
 				<div className='row'>
 					<div className='col-md-8'>
 						<Image

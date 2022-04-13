@@ -16,8 +16,7 @@ export default function Footer() {
 									<Image src={log} width='300px' height='150px' alt='image' />
 								</Link>
 								<p>
-									Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-									maecenas accumsan.
+								Professional Office interior & space planning.
 								</p>
 							</div>
 							<ul className='social'>

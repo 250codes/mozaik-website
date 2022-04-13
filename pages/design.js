@@ -9,14 +9,13 @@ function Design() {
 			<Navbar />
 			<Head title={"Design"} />
 			<PageIntro name='Design' />
-			<div className='container ptb-110'>
-				{/* <p>
-					{`
+			<div className='container ptb-55'>
+				<p>
 					Mozaik concepts design team can provide you with a professional
 					solution to create an imaginative, functional, and stylish office
 					environment that meets the unique needs of the contemporary business
-					world.`}
-				</p> */}
+					world.
+				</p>
 				<div className='row'>
 					<div className='col-md-8'>
 						<Image
