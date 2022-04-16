@@ -1,5 +1,5 @@
 import React from "react";
-import log from "../images/Mozaik.png";
+import log from "../public/images/logoLight.png";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import Image from "next/image";
@@ -40,16 +40,12 @@ function HeroSection() {
 				<div
 					className='position-absolute top-50 start-50 translate-middle'
 					id='middle'>
-						<center>
-
-					<Image
-						src={log}
-						alt='logo'
-						width='300'
-						height='200'
-					/>
-					<h3 className='company-tag'>Professional Office interior & space planning</h3>
-						</center>
+					<center>
+						<Image src={log} alt='logo' width='300' height='300' />
+						<h3 className='company-tag'>
+							Professional Office interior & space planning
+						</h3>
+					</center>
 				</div>
 			</div>
 		</>

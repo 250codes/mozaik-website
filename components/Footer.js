@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import log from "../images/Mozaik.png";
+import log from "../public/images/logoLight.png";
 import Link from "next/link";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
@@ -13,11 +13,14 @@ export default function Footer() {
 						<div className='single-footer-widget'>
 							<div className='logo'>
 								<Link href='/'>
-									<Image src={log} width='300px' height='150px' alt='image' />
+									<Image
+										src={log}
+										width='150px'
+										height='150px'
+										alt='image'
+									/>
 								</Link>
-								<p>
-								Professional Office interior & space planning.
-								</p>
+								<p>Professional Office interior & space planning.</p>
 							</div>
 							<ul className='social'>
 								<li>

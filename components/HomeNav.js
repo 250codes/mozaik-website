@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import log from "../images/Mozaik.png";
+import log from "../public/images/logoDark.png";
 function Navbar() {
 	const [dropDown, setDropDown] = useState(false);
 	const [deepdropDown, setDeepDropDown] = useState(false);
@@ -44,15 +44,7 @@ function Navbar() {
 			<div className='container d-flex justify-content-between align-items-center  w-100'>
 				<div style={{ cursor: "pointer" }}>
 					<Link href='/'>
-						<h1 className='logo me-auto'>
-							<Image
-								src={log}
-								width={200}
-								height={100}
-								className='main-logo'
-								alt='logg'
-							/>
-						</h1>
+						<Image src={log} width='100px' height='100px' alt='logg' />
 					</Link>
 				</div>
 
