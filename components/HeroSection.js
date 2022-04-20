@@ -7,13 +7,13 @@ import Image from "next/image";
 function HeroSection() {
 	const images = [
 		{
-			url: "images/first1.jpg",
+			url: "images/cover1.jpg",
 		},
 		{
-			url: "images/first2.jpg ",
+			url: "images/cover2.jpg ",
 		},
 		{
-			url: "images/first3.jpg",
+			url: "images/cover3.jpg",
 		},
 	];
 	return (

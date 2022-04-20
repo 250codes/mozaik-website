@@ -23,7 +23,7 @@ function Vision() {
 
 					<div className='col-lg-7'>
 						<h3 className='pt-0 pt-lg-5'>
-						End-to-end turnkey office design and build
+							End-to-end turnkey office design and build
 						</h3>
 
 						<ul className='nav nav-pills mb-3'>
@@ -49,57 +49,46 @@ function Vision() {
 
 						<div className='tab-content'>
 							<div className='tab-pane fade show active' id='about'>
-								<p className=''>
-									We are a business describes the ultimate goals and overarching
-									purpose of a for-profit or nonprofit organization. A vision
-									statement can serve as the cornerstone of strategic planning,
-									providing an organization with direction and a general
-									destination as well as defining its aspirations and values
+								<p className='mb-2'>
+									{`
+									It is our mission to operate our business with care, honesty and integrity. We leverage all of this knowledge to act as trusted advisers to our clients.
+									`}
 								</p>
 								<p className=''>
-									We are a business describes the ultimate goals and overarching
-									purpose of a for-profit or nonprofit organization. A vision
-									statement can serve as the cornerstone of strategic planning,
-									providing an organization with direction and a general
-									destination as well as defining its aspirations and values
+									{`
+									Recognized by clients for CREATIVITY in THOUGHTS, APPROACHES, SOLUTIONS and FINISHED PRODUCTS.
+									`}
 								</p>
+								<ul>
+									<li>{`To always exceed our client’s expectations.`}</li>
+									<li>{`We believe in striving to deliver quality interior design services to our clients within their schedule and budget.
+`}</li>
+									<li>{`Treating all our Vendors with respect and fairness.
+`}</li>
+									<li>{`Being ethical in all our dealings with Clients, Vendors and Suppliers.`}</li>
+									<li>{`Always hiring exciting and diverse People who are not all alike.`}</li>
+									<li>{`Being thorough and paying attention to the details`}</li>
+									<li>{`Being competitive with our fees.`}</li>
+									<li>{`Being a learning organization that is constantly changing and questioning the way we do things.`}</li>
+									<li>{`Being a fun place to work by being supportive, free of politics, team-oriented, laughter filled and friendly environment`}</li>
+									<li>{`MOZAIK Concepts is your choice of Interior Architecture Firm who cares for your needs`}</li>
+								</ul>
 							</div>
 
 							<div className='tab-pane fade show' id='vision'>
 								<p className=''>
-									A vision statement describes the ultimate goals and
-									overarching purpose of a for-profit or nonprofit organization.
-									A vision statement can serve as the cornerstone of strategic
-									planning, providing an organization with direction and a
-									general destination as well as defining its aspirations and
-									values
-								</p>
-								<p className=''>
-									A vision statement describes the ultimate goals and
-									overarching purpose of a for-profit or nonprofit organization.
-									A vision statement can serve as the cornerstone of strategic
-									planning, providing an organization with direction and a
-									general destination as well as defining its aspirations and
-									values
+									{`
+									Our vision is to be a reputable, sustainable, and desirable premier professional/commercial interior architecture firm of the African market place providing the state-of-the-art innovative designs and superior quality finishing. We will continue to leverage on our many years of professional experience to consistently deliver exclusive design services that bring a complete satisfaction of our partners and client’s requirements.
+
+									`}
 								</p>
 							</div>
 
 							<div className='tab-pane fade show' id='mission'>
 								<p className=''>
-									A Mission statement describes the ultimate goals and
-									overarching purpose of a for-profit or nonprofit organization.
-									A vision statement can serve as the cornerstone of strategic
-									planning, providing an organization with direction and a
-									general destination as well as defining its aspirations and
-									values
-								</p>
-								<p className=''>
-									A Mission statement describes the ultimate goals and
-									overarching purpose of a for-profit or nonprofit organization.
-									A vision statement can serve as the cornerstone of strategic
-									planning, providing an organization with direction and a
-									general destination as well as defining its aspirations and
-									values
+									{`
+									Our mission is to create reward experience and value that combine functionality with high quality and innovation for our customers. We want every partner and client experience to be the talk of a life time. Also, to define the most sophisticated and superior standard of quality in every exterior and interior designs.
+`}
 								</p>
 							</div>
 						</div>
