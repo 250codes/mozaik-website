@@ -40,12 +40,6 @@ function Testimonial() {
 						Probably so we can think twice.{" "}
 					</blockquote>
 					<div className='author'>
-						<Image
-							width={100}
-							height={100}
-							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg'
-							alt='sq-sample1'
-						/>
 						<h5>
 							Pelican Steve <span> LittleSnippets</span>
 						</h5>
@@ -58,12 +52,6 @@ function Testimonial() {
 						good, you know get an A. a tip kids. Write it down.
 					</blockquote>
 					<div className='author'>
-						<Image
-							width={100}
-							height={100}
-							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample24.jpg'
-							alt='sq-sample24'
-						/>
 						<h5>
 							Max Conversion<span> LittleSnippets</span>
 						</h5>
@@ -76,12 +64,6 @@ function Testimonial() {
 						any responsibility for my actions.
 					</blockquote>
 					<div className='author'>
-						<Image
-							width={100}
-							height={100}
-							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample29.jpg'
-							alt='sq-sample29'
-						/>
 						<h5>
 							Eleanor Faint<span> LittleSnippets</span>
 						</h5>
@@ -94,12 +76,6 @@ function Testimonial() {
 						Probably so we can think twice.{" "}
 					</blockquote>
 					<div className='author'>
-						<Image
-							width={100}
-							height={100}
-							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg'
-							alt='sq-sample1'
-						/>
 						<h5>
 							Pelican Steve <span> LittleSnippets</span>
 						</h5>
@@ -112,12 +88,6 @@ function Testimonial() {
 						good, you know get an A. a tip kids. Write it down.
 					</blockquote>
 					<div className='author'>
-						<Image
-							width={100}
-							height={100}
-							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample24.jpg'
-							alt='sq-sample24'
-						/>
 						<h5>
 							Max Conversion<span> LittleSnippets</span>
 						</h5>
@@ -130,12 +100,6 @@ function Testimonial() {
 						any responsibility for my actions.
 					</blockquote>
 					<div className='author'>
-						<Image
-							width={100}
-							height={100}
-							src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample29.jpg'
-							alt='sq-sample29'
-						/>
 						<h5>
 							Eleanor Faint<span> LittleSnippets</span>
 						</h5>

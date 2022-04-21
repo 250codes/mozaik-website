@@ -32,11 +32,11 @@ function Projects() {
 											width={400}
 											height={400}
 											className='content-image'
-											src='/images/project1.jpg'
+											src='/images/bpn/1.jpg'
 											alt='project1'
 										/>
 										<div className='content-details fadeIn-top'>
-											<h3>This is a title</h3>
+											<h3>Bpn</h3>
 											<p>This is a short description</p>
 										</div>
 									</a>
@@ -53,11 +53,11 @@ function Projects() {
 											width={400}
 											height={400}
 											className='content-image'
-											src='/images/project2.jpg'
+											src='/images/cover2.jpg'
 											alt='project2'
 										/>
 										<div className='content-details fadeIn-top'>
-											<h3>This is a title</h3>
+											<h3>Home Decor</h3>
 											<p>This is a short description</p>
 										</div>
 									</a>
@@ -74,11 +74,11 @@ function Projects() {
 											width={400}
 											height={400}
 											className='content-image'
-											src='/images/project3.jpg'
+											src='/images/institutfrancais/cover.jpg'
 											alt='project3'
 										/>
 										<div className='content-details fadeIn-top'>
-											<h3>This is a title</h3>
+											<h3>Institute Francais</h3>
 											<p>This is a short description</p>
 										</div>
 									</a>
@@ -95,11 +95,11 @@ function Projects() {
 											width={400}
 											height={400}
 											className='content-image'
-											src='/images/project4.jpg'
+											src='/images/kavumoproject/11.jpg'
 											alt='project4'
 										/>
 										<div className='content-details fadeIn-top'>
-											<h3>This is a title</h3>
+											<h3>Kavumo Project</h3>
 											<p>This is a short description</p>
 										</div>
 									</a>
@@ -115,11 +115,11 @@ function Projects() {
 											width={400}
 											height={400}
 											className='content-image'
-											src='/images/project4.jpg'
+											src='/images/transafricacommunication/4.jpg'
 											alt='project4'
 										/>
 										<div className='content-details fadeIn-top'>
-											<h3>This is a title</h3>
+											<h3>Trans Africa Community</h3>
 											<p>This is a short description</p>
 										</div>
 									</a>

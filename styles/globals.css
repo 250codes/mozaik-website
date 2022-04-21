@@ -526,3 +526,6 @@ figure.snip1192 .author h5 span {
 		width: 100% !important;
 	}
 }
+.aboutImage{
+object-fit: none !important;
+}

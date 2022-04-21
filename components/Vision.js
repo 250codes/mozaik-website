@@ -14,8 +14,8 @@ function Vision() {
 								layout='intrinsic'
 								width={385}
 								height={487}
-								src='/images/about.jpg'
-								className='img-fluid'
+								src='/images/cover4.jpg'
+								className='img-fluid aboutImage'
 								alt=''
 							/>
 						</div>
