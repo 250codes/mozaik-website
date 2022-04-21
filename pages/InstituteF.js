@@ -9,11 +9,11 @@ function InstituteF() {
 	return (
 		<div>
 			<Navbar />
-			<PageIntro name='Work Title' />
+			<PageIntro name='Institute Francais' />
 			<Head title={"Projects"} />
 			<div className='container mt-8'>
 				<div className='intro mt-5 mb-3'>
-					<h2 className='text-center'>Work Title </h2>
+					<h2 className='text-center text-dark'>Institute Francais </h2>
 					<p className='text-left'>
 						Our customers love us! Read what they have to say below. Aliquam sed
 						justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.

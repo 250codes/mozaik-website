@@ -9,11 +9,11 @@ function bpn() {
 	return (
 		<div>
 			<Navbar />
-			<PageIntro name='Work Title' />
+			<PageIntro name='Bpn Project' />
 			<Head title={"Projects"} />
 			<div className='container mt-8'>
 				<div className='intro mt-5 mb-3'>
-					<h2 className='text-center'>Work Title </h2>
+					<h2 className='text-center text-dark'>Bpn Project </h2>
 					<p className='text-left'>
 						Our customers love us! Read what they have to say below. Aliquam sed
 						justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.
@@ -33,7 +33,7 @@ function bpn() {
 							width={400}
 							height={400}
 							className='content-image'
-							src='/images/project1.jpg'
+							src='/images/bpn/1.jpg'
 							alt='project1'
 						/>
 					</div>
@@ -43,7 +43,7 @@ function bpn() {
 							width={400}
 							height={400}
 							className='content-image'
-							src='/images/project1.jpg'
+							src='/images/bpn/9.jpg'
 							alt='project1'
 						/>
 					</div>
@@ -53,7 +53,7 @@ function bpn() {
 							width={400}
 							height={400}
 							className='content-image'
-							src='/images/project1.jpg'
+							src='/images/bpn/10.jpg'
 							alt='project1'
 						/>
 					</div>
@@ -63,7 +63,7 @@ function bpn() {
 							width={400}
 							height={400}
 							className='content-image'
-							src='/images/project1.jpg'
+							src='/images/bpn/11.jpg'
 							alt='project1'
 						/>
 					</div>
@@ -72,7 +72,7 @@ function bpn() {
 							width={400}
 							height={400}
 							className='content-image'
-							src='/images/project1.jpg'
+							src='/images/bpn/15.jpg'
 							alt='project1'
 						/>
 					</div>
@@ -81,7 +81,7 @@ function bpn() {
 							width={400}
 							height={400}
 							className='content-image'
-							src='/images/project1.jpg'
+							src='/images/bpn/18.jpg'
 							alt='project1'
 						/>
 					</div>
@@ -90,7 +90,16 @@ function bpn() {
 							width={400}
 							height={400}
 							className='content-image'
-							src='/images/project1.jpg'
+							src='/images/bpn/27.jpg'
+							alt='project1'
+						/>
+					</div>
+					<div className='col-lg-3 col-md-6'>
+						<Image
+							width={400}
+							height={400}
+							className='content-image'
+							src='/images/bpn/24.jpg'
 							alt='project1'
 						/>
 					</div>
