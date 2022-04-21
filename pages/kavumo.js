@@ -33,7 +33,7 @@ function kavumo() {
 							width={400}
 							height={400}
 							className='content-image'
-							src='/images/project1.jpg'
+							src='/images/kavumoproject/3.jpg'
 							alt='project1'
 						/>
 					</div>
@@ -43,7 +43,7 @@ function kavumo() {
 							width={400}
 							height={400}
 							className='content-image'
-							src='/images/project1.jpg'
+							src='/images/kavumoproject/4.jpg'
 							alt='project1'
 						/>
 					</div>
@@ -53,7 +53,7 @@ function kavumo() {
 							width={400}
 							height={400}
 							className='content-image'
-							src='/images/project1.jpg'
+							src='/images/kavumoproject/5.jpg'
 							alt='project1'
 						/>
 					</div>
@@ -63,34 +63,7 @@ function kavumo() {
 							width={400}
 							height={400}
 							className='content-image'
-							src='/images/project1.jpg'
-							alt='project1'
-						/>
-					</div>
-					<div className='col-lg-3 col-md-6'>
-						<Image
-							width={400}
-							height={400}
-							className='content-image'
-							src='/images/project1.jpg'
-							alt='project1'
-						/>
-					</div>
-					<div className='col-lg-3 col-md-6'>
-						<Image
-							width={400}
-							height={400}
-							className='content-image'
-							src='/images/project1.jpg'
-							alt='project1'
-						/>
-					</div>
-					<div className='col-lg-3 col-md-6'>
-						<Image
-							width={400}
-							height={400}
-							className='content-image'
-							src='/images/project1.jpg'
+							src='/images/kavumoproject/11.jpg'
 							alt='project1'
 						/>
 					</div>
