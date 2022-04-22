@@ -37,73 +37,61 @@ function Testimonial() {
 					<blockquote>
 						Calvin: Sometimes when talking with others, my words keep up with my
 						thoughts. I wonder why we think faster than we speak. Hobbes:
-						Probably so we can think twice.{" "}
+						Probably so we can think twice.
+						<p className='author'>
+							Pelican Steve <span className='text-dark'> LittleSnippets</span>
+						</p>
 					</blockquote>
-					<div className='author'>
-						<h5>
-							Pelican Steve <span> LittleSnippets</span>
-						</h5>
-					</div>
 				</figure>
 				<figure className='snip1192 hover'>
 					<blockquote>
 						Thank you. before I begin, like everyone to notice that my report is
 						in a professional, clear plastic binder...When a report looks this
 						good, you know get an A. a tip kids. Write it down.
+						<p className='author'>
+							Pelican Steve <span className='text-dark'> LittleSnippets</span>
+						</p>
 					</blockquote>
-					<div className='author'>
-						<h5>
-							Max Conversion<span> LittleSnippets</span>
-						</h5>
-					</div>
 				</figure>
 				<figure className='snip1192'>
 					<blockquote>
 						My behaviour is addictive functioning in a disease process of toxic
 						co-dependency. I need holistic healing and wellness before accept
 						any responsibility for my actions.
+						<p className='author'>
+							Pelican Steve <span className='text-dark'> LittleSnippets</span>
+						</p>
 					</blockquote>
-					<div className='author'>
-						<h5>
-							Eleanor Faint<span> LittleSnippets</span>
-						</h5>
-					</div>
 				</figure>
 				<figure className='snip1192'>
 					<blockquote>
 						Calvin: Sometimes when talking with others, my words keep up with my
 						thoughts. I wonder why we think faster than we speak. Hobbes:
 						Probably so we can think twice.{" "}
+						<p className='author'>
+							Pelican Steve <span className='text-dark'> LittleSnippets</span>
+						</p>
 					</blockquote>
-					<div className='author'>
-						<h5>
-							Pelican Steve <span> LittleSnippets</span>
-						</h5>
-					</div>
 				</figure>
 				<figure className='snip1192 hover'>
 					<blockquote>
 						Thank you. before I begin, like everyone to notice that my report is
 						in a professional, clear plastic binder...When a report looks this
 						good, you know get an A. a tip kids. Write it down.
+						<p className='author'>
+							Pelican Steve <span className='text-dark'> LittleSnippets</span>
+						</p>
 					</blockquote>
-					<div className='author'>
-						<h5>
-							Max Conversion<span> LittleSnippets</span>
-						</h5>
-					</div>
 				</figure>
 				<figure className='snip1192'>
 					<blockquote>
 						My behaviour is addictive functioning in a disease process of toxic
 						co-dependency. I need holistic healing and wellness before accept
 						any responsibility for my actions.
+						<p className='author'>
+							Pelican Steve <span className='text-dark'> LittleSnippets</span>
+						</p>
 					</blockquote>
-					<div className='author'>
-						<h5>
-							Eleanor Faint<span> LittleSnippets</span>
-						</h5>
-					</div>
 				</figure>
 			</Carousel>
 		</div>

@@ -5,7 +5,7 @@ function Team() {
 		<section id='team' className='team'>
 			<div className='container' data-aos='fade-up'>
 				<div className='team-header'>
-					<h2>Our Team</h2>
+					<h2 className="text-dark" >Our Team</h2>
 				</div>
 
 				<div className='row gy-5'>
