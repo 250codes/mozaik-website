@@ -93,7 +93,7 @@ function Navbar() {
 									</ul>
 								</li>
 								<li className='dropdown'>
-									<a href='finishing'>
+									<a href='#'>
 										<span onClick={() => setDeep2DropDown(!deep2dropDown)}>
 											Project Management
 										</span>{" "}
