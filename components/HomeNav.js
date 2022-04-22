@@ -65,7 +65,7 @@ function Navbar() {
 						</li>
 
 						<li className='dropdown'>
-							<a href='consultancy'>
+							<a href='#'>
 								<span onClick={() => setDropDown(!dropDown)}>Services</span>{" "}
 								<i className='bi bi-chevron-down'></i>
 							</a>
