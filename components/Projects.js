@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { FaArrowRight } from "react-icons/fa";
 
 function Projects() {
 	return (
@@ -44,7 +45,7 @@ function Projects() {
 							</div>
 						</div>
 
-						<div className='col-md-6 d-block mb-4'>
+						{/* <div className='col-md-6 d-block mb-4'>
 							<div className='content'>
 								<Link href='homeDecor'>
 									<a>
@@ -63,7 +64,7 @@ function Projects() {
 									</a>
 								</Link>
 							</div>
-						</div>
+						</div> */}
 
 						<div className='col-md-6 d-block mb-4'>
 							<div className='content'>
@@ -127,6 +128,12 @@ function Projects() {
 							</div>
 						</div>
 					</div>
+					<div className='abt-btn mt-2 mb-3 ml-5'>
+					<Link href='projects' id='abt-btn'>
+						More Projects
+					</Link>
+					<FaArrowRight style={{ color: "white", marginLeft: "4px" }} />
+				</div>
 				</div>
 			</div>
 		</section>

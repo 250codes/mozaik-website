@@ -24,7 +24,7 @@ function kavumo() {
 					))}
 				</div>
 				<div className='abt-btn mt-2 mb-3'>
-					<Link href='/#projects' id='abt-btn'>
+					<Link href='projects' id='abt-btn'>
 						More Projects
 					</Link>
 					<FaArrowRight style={{ color: "white", marginLeft: "4px" }} />
