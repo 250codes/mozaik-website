@@ -63,10 +63,6 @@ function Contact() {
 				<div className='container'>
 					<div className='section-title'>
 						<h2>Drop us Message for any Query</h2>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
 					</div>
 					<div className='contact-form'>
 						<div className='row align-items-center'>
@@ -178,7 +174,7 @@ function Contact() {
 												</button>
 											) : (
 												<button
-													className='btn btn-primary'
+													className='btn contactUsPage-btn-bg'
 													onClick={handleSubmit}>
 													Send Message
 												</button>

@@ -51,7 +51,7 @@ function HeroSection() {
 					className='position-absolute top-50 start-50 translate-middle'
 					id='middle'>
 					<center>
-						<Image src={log} alt='logo' width='300' height='300' />
+						<Image src={log} alt='logo' width='240' height='170' />
 						<h3 className='company-tag'>
 							Professional Office interior & space planning
 						</h3>

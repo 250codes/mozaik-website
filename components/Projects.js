@@ -5,7 +5,7 @@ import Image from "next/image";
 function Projects() {
 	return (
 		<section
-			className=' bg-f2f6f9 ptb-20'
+			className=' home-project-bg ptb-20'
 			style={{ padding: "2rem" }}
 			id='projects'>
 			<div className=''>

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import log from "../public/images/logoLight.png";
 import Link from "next/link";
-import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
 	return (
@@ -24,17 +24,12 @@ export default function Footer() {
 							</div>
 							<ul className='social'>
 								<li>
-									<a target='_blank' href='/'>
-										<FaFacebookF style={{ color: "white" }} />
+									<a target='_blank' href='https://www.linkedin.com/company/mozaikconcepts/'>
+										<FaLinkedin style={{ color: "white" }} />
 									</a>
 								</li>
 								<li>
-									<a target='_blank' href='index.htm#'>
-										<FaTwitter style={{ color: "white" }} />
-									</a>
-								</li>
-								<li>
-									<a target='_blank' href='index.htm#'>
+									<a target='_blank' href='https://www.instagram.com/mozaikconcepts/'>
 										<FaInstagram style={{ color: "white" }} />
 									</a>
 								</li>
@@ -118,7 +113,7 @@ export default function Footer() {
 									</a>
 								</li>
 								<li>
-									<span>Phone:</span>+250 788 224433
+									<span>Phone:</span>+250 785 605 599
 								</li>
 							</ul>
 						</div>

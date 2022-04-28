@@ -6,7 +6,7 @@ function WorkWithUs() {
 		<div className='container mb-5'>
 			<div className='row'>
 				<div className='col-md-4 wk-t mt-md-4'>
-					<h1 className='wk'>Work</h1>
+					<h1 className='wk'>Working</h1>
 					<h1 className='wk' style={{ marginTop: "-1rem" }}>
 						With us
 					</h1>

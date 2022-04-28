@@ -10,45 +10,41 @@ function workWithUs() {
 			<Head title={"Work With Us"} />
 			<PageIntro name='Work With Us' />
 			<h1 className='section-title mt-4 text-dark'>Why work with us ?</h1>
-			<p
-				className='ml-4 text-center text-dark w-60 font-italic'
-				>{`Choosing to create new office interiors represents a significant financial commitment for your company, so the overarching question you'll be asking will be what benefits for my business will make this particular investment worthwhile?`}
-			</p>
 
 			<section className='w-75 p-3 first'>
-				<h6 className='ml-4 text-dark'>
+				<h5 className='ml-4 mb-5 text-dark font-weight-bold'>
 					Ultimately, investing in a new office fit out can put your business in a
 				better position to:
-				</h6>
+				</h5>
 				<div className='ml-4 mt-2'>
-					<h5 className='font-weight-bold text-dark'>
+					<h5 className='font-weight-bold workWithUs-title'>
 						Increase productivity rates
 					</h5>
-					<p>
+					<p className="workwithus-justify">
 						{`One of the major reasons why a business would choose to improve their
 				workplace interiors is to give their employees the best opportunity to
 				raise their productivity levels and the quality of work that they are
 				able to produce.`}
 					</p>
-					<p>{`It makes perfect sense; if we work in an environment that is uncomfortable, demoralising and dull, it will create those same feelings inside of us. Is the workplace even equipped with all of the necessary tools and facilities that help employees along with their work? If not, it shouldn't be a surprise that the rate and quality of work aren't at the levels they should be at.
+					<p className="workwithus-justify">{`It makes perfect sense; if we work in an environment that is uncomfortable, demoralising and dull, it will create those same feelings inside of us. Is the workplace even equipped with all of the necessary tools and facilities that help employees along with their work? If not, it shouldn't be a surprise that the rate and quality of work aren't at the levels they should be at.
 `}</p>
-					<p>{`By making use of office fitters to re-design your workspaces, you will be fashioning a fresh design that will suit the working styles of everyone in the company; giving them the ideal environment in which to feel inspired, empowered and equipped for their work.
+					<p className="workwithus-justify">{`By making use of office fitters to re-design your workspaces, you will be fashioning a fresh design that will suit the working styles of everyone in the company; giving them the ideal environment in which to feel inspired, empowered and equipped for their work.
 `}</p>
 				</div>
 
-				<div className='ml-4 mt-4'>
-					<h5 className='font-weight-bold text-dark'>
+				<div className='title-margin-h2 mt-5 '>
+					<h5 className='font-weight-bold workWithUs-title'>
 						Make more efficient use of the space
 					</h5>
-					<p>
+					<p className="workwithus-justify">
 						{`By reimagining your office interiors to work for you, rather than you for it, you will be making better use of the building. Too many businesses pay for space that they do not use; modern office design techniques can plan out every square foot of space that can be repurposed for something else; be that extra open plan space, a breakout area, a kitchen, office storage or anything else you need to make the in-work experience better for your employees.`}
 					</p>
 				</div>
-				<div className='ml-4 mt-4'>
-					<h5 className='font-weight-bold text-dark'>
+				<div className='title-margin-h3 mt-5'>
+					<h5 className='font-weight-bold workWithUs-title'>
 						Establish your business philosophies and branding.
 					</h5>
-					<p>
+					<p className="workwithus-justify">
 						{`If you intend to host clients, then the need to present yourself as per your advertising materials in a professional environment is an absolute must. By using an office fit out company, you can place your company's identity, philosophies and branding throughout the design, creating that original look and feel that makes your business stand out.
 `}
 					</p>

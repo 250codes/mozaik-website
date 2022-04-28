@@ -3,6 +3,9 @@ import PageIntro from "../components/PageIntro";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Head from "../components/Head";
+import ServicesPagesTitle from "../components/servicesPagesTitle";
+import ServicesPagesBody from "../components/ServicesPagesBody";
+
 function SpacePlanning() {
 	return (
 		<div>
@@ -10,32 +13,23 @@ function SpacePlanning() {
 			<Head title={"Space planning and refurbishment"} />
 			<PageIntro name='Space planning and refurbishment' />
 			<div className='container ptb-55'>
-				<h3 className='my-3 text-dark'>Space planning and refurbishment</h3>
-				<p>
-					{`From a blank canvas, we work to create spaces that inspire staff,
-					enrich culture and improve recruitment and retention. Ultimately, It
-					will help to bring people together to create the products and services
-					that will make your business a success.`}
-				</p>
+				<ServicesPagesTitle 
+							title="Space planning and refurbishment" 
+							body= {`From a blank canvas, we work to create spaces that inspire staff,
+							enrich culture and improve recruitment and retention. Ultimately, It
+							will help to bring people together to create the products and services
+							that will make your business a success.`}
+				/>
 				<div className='row'>
-					<div className='col-md-8'>
-						<Image
-							className='img-fluid w-100'
-							layout='intrinsic'
-							width={700}
-							height={475}
-							src='https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
-							alt=''
-						/>
-					</div>
-
-					<div className='col-md-4'>
-						<p>{`From a blank canvas, we work to create spaces that inspire staff, enrich culture and improve recruitment and retention. Ultimately, It will help to bring people together to create the products and services that will make your business a success.`}</p>
-						<p>
-							{`Whether it's a refresh of your existing spaces, a complete office overhaul or anything else in between, you can rest assured that through our experience, skills and approach, your workplace environment will grow strong with Mozaik Concepts.
-We love to see older workplaces undergo incredible renovations to create an utterly unique and optimised working environment.`}
-						</p>
-					</div>
+					<ServicesPagesBody 
+								image='https://images.pexels.com/photos/9436715/pexels-photo-9436715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+								text={`From a blank canvas, we work to create spaces that inspire staff, enrich culture and improve recruitment and retention. 
+										Ultimately, It will help to bring people together to create the products and services that will make your business a success.
+										Whether it's a refresh of your existing spaces, a complete office overhaul or anything else in between, 
+										you can rest assured that through our experience, skills and approach, your workplace environment will grow strong with Mozaik Concepts.
+										We love to see older workplaces undergo incredible renovations to create an utterly unique and optimised working environment.
+									`}
+							/>
 				</div>
 			</div>
 		</div>

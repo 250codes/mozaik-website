@@ -380,7 +380,7 @@ figure.snip1192 .author span {
 
 .content .content-overlay {
 	z-index: 10;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	height: 99%;
 	width: 100%;
@@ -483,7 +483,7 @@ figure.snip1192 .author span {
 
 .overlay {
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.8);
 	position: absolute;
 	width: 100%;
 	top: 0;
@@ -508,9 +508,13 @@ figure.snip1192 .author span {
 
 .company-tag {
 	font-size: 1.5rem;
-	font-weight: bolder;
+	/* font-weight: bold; */
+	font-weight: lighter;
 	color: #ffffff;
-	font-family: "Courier New", Courier, monospace;
+	word-spacing: 3px;
+	letter-spacing: 3px;
+	font-family: "Open Sans", sans-serif;
+	/* font-family: "Courier New", Courier, monospace; */
 }
 .workWithUs {
 	font-family: "Open Sans", sans-serif;
@@ -535,4 +539,41 @@ figure.snip1192 .author span {
 }
 .aboutImage {
 	object-fit: none !important;
+}
+
+.home-project-bg{
+	background-color: #fafafa;
+}
+
+.workWithUs-title{
+	color: #a6032f;
+}
+.title-margin-h2{
+	margin-left: 100px;
+}
+.title-margin-h3{
+	margin-left: 200px;
+}
+.workwithus-justify{
+	text-align: justify;
+}
+.contactUs-btn-bg{
+	background-color: #a6032f;
+	color: #ffffff;
+	margin-left: 90px;
+	/* text-align: center; */
+}
+.contactUsPage-btn-bg{
+	background-color: #252424;
+	color: #ffffff;
+	/* text-align: center; */
+}
+.contactUsPage-btn-bg:hover{
+	background-color: #a6032f;
+	color: #ffffff;
+	/* text-align: center; */
+}
+.service-header-bold{
+	font-weight: bold;
+	font-size: 17px;
 }
