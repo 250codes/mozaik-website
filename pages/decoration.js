@@ -3,7 +3,7 @@ import Image from "next/image";
 import PageIntro from "../components/PageIntro";
 import Navbar from "../components/Navbar";
 import Head from "../components/Head";
-import ServicesPagesTitle from "../components/servicesPagesTitle";
+import ServicesPagesTitle from "../components/ServicesPagesTitle";
 import ServicesPagesBody from "../components/ServicesPagesBody";
 
 function Decoration() {

@@ -32,7 +32,8 @@ function projects() {
 			title: "Trans Africa Community",
 			image: "/images/transafricacommunication/4.jpg",
 			url: "tsc"
-		}
+		},
+		
 	];
   return (
     <div>
