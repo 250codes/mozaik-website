@@ -13,23 +13,24 @@ export default function Footer() {
 						<div className='single-footer-widget'>
 							<div className='logo'>
 								<Link href='/'>
-									<Image
-										src={log}
-										width='150px'
-										height='150px'
-										alt='image'
-									/>
+									<Image src={log} width='150px' height='150px' alt='image' />
 								</Link>
 								<p>Professional Office interior & space planning.</p>
 							</div>
 							<ul className='social'>
 								<li>
-									<a target='_blank' href='https://www.linkedin.com/company/mozaikconcepts/'>
+									<a
+										target='_blank'
+										rel='noreferrer'
+										href='https://www.linkedin.com/company/mozaikconcepts/'>
 										<FaLinkedin style={{ color: "white" }} />
 									</a>
 								</li>
 								<li>
-									<a target='_blank' href='https://www.instagram.com/mozaikconcepts/'>
+									<a
+										target='_blank'
+										rel='noreferrer'
+										href='https://www.instagram.com/mozaikconcepts/'>
 										<FaInstagram style={{ color: "white" }} />
 									</a>
 								</li>

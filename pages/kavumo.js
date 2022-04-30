@@ -19,8 +19,8 @@ function kavumo() {
 			<div className='container mt-8'>
 				<ProjectContent title='Kavumo Project' body={body} />
 				<div className='row '>
-					{ images.map((image)=>(
-						<ProjectImage image={image} altText='bpn project' />
+					{ images.map((image,i)=>(
+						<ProjectImage image={image} altText='bpn project' key={i}/>
 					))}
 				</div>
 				<div className='abt-btn mt-2 mb-3'>
