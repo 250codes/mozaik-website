@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
-import Image from "next/image";
+
 import Head from "../components/Head";
-import image from "../images/contact.png";
+
 import PageIntro from "../components/PageIntro";
 import Navbar from "../components/Navbar";
 
