@@ -14096,7 +14096,7 @@ blockquote:before {
 	text-align: center;
 }
 .contact-form form {
-	padding-left: 50px;
+	/* padding-left: 50px; */
 }
 .contact-form form .form-group {
 	margin-bottom: 20px;

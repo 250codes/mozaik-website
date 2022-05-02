@@ -66,12 +66,19 @@ function Contact() {
 					</div>
 					<div className='contact-form'>
 						<div className='row align-items-center'>
-							<div className='col-lg-5 col-md-12'>
+							<div className='col-lg-6 col-md-12'>
 								<div className='contact-image'>
-									<Image src={image} width='395px' height='480px' alt='image' />
+									<iframe
+										src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63799.569270099404!2d30.069947188657277!3d-1.9646087833235018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca771c5178d67%3A0x96e7701dc918beb4!2sMOZAIK%20Concepts!5e0!3m2!1sfr!2srw!4v1651509091052!5m2!1sfr!2srw'
+										width='100%'
+										height='480px'
+										style={{ border: "0" }}
+										allowfullscreen=''
+										loading='lazy'
+										referrerpolicy='no-referrer-when-downgrade'></iframe>
 								</div>
 							</div>
-							<div className='col-lg-7 col-md-12'>
+							<div className='col-lg-6 col-md-12'>
 								<form id='contactForm'>
 									<div className='row'>
 										<div className='col-lg-6 col-md-6'>
