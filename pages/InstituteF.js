@@ -39,7 +39,7 @@ function InstituteF() {
 				<ProjectContent title='Institute Francais' body={body} />
 				<div className='row '>
 					{images.map((image, i) => (
-						<div className='col-lg-3 col-md-6'>
+						<div className='col-lg-3 col-md-6' key={i}>
 							<Image
 								width={400}
 								height={400}

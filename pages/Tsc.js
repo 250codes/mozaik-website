@@ -8,7 +8,7 @@ import PageIntro from "../components/PageIntro";
 import ProjectContent from "../components/ProjectContent";
 import ImageViewer from "react-simple-image-viewer";
 
-function tsc() {
+function Tsc() {
 	const [isViewerOpen, setIsViewerOpen] = useState(false);
 	const [currentImage, setCurrentImage] = useState(0);
 	const openImageViewer = useCallback((index) => {
@@ -39,7 +39,7 @@ function tsc() {
 				<ProjectContent title='Trans Africa Community' body={body} />
 				<div className='row '>
 					{images.map((image, i) => (
-						<div className='col-lg-3 col-md-6'>
+						<div className='col-lg-3 col-md-6' key={i}>
 							<Image
 								width={400}
 								height={400}
@@ -77,4 +77,4 @@ function tsc() {
 	);
 }
 
-export default tsc;
+export default Tsc;
