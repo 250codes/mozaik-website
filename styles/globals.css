@@ -20,6 +20,10 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+.image-viewer {
+	z-index: 10;
+}
+
 #middle h1 {
 	font-weight: normal;
 	font-size: 35px;
@@ -251,7 +255,7 @@ a {
 --------------------------------------------------------------*/
 #header {
 	transition: all 0.5s;
-	z-index: 997;
+	z-index: 9;
 	height: 80px;
 }
 .header-transparent {
@@ -541,39 +545,39 @@ figure.snip1192 .author span {
 	object-fit: none !important;
 }
 
-.home-project-bg{
+.home-project-bg {
 	background-color: #fafafa;
 }
 
-.workWithUs-title{
+.workWithUs-title {
 	color: #a6032f;
 }
-.title-margin-h2{
+.title-margin-h2 {
 	margin-left: 100px;
 }
-.title-margin-h3{
+.title-margin-h3 {
 	margin-left: 200px;
 }
-.workwithus-justify{
+.workwithus-justify {
 	text-align: justify;
 }
-.contactUs-btn-bg{
+.contactUs-btn-bg {
 	background-color: #a6032f;
 	color: #ffffff;
 	margin-left: 90px;
 	/* text-align: center; */
 }
-.contactUsPage-btn-bg{
+.contactUsPage-btn-bg {
 	background-color: #252424;
 	color: #ffffff;
 	/* text-align: center; */
 }
-.contactUsPage-btn-bg:hover{
+.contactUsPage-btn-bg:hover {
 	background-color: #a6032f;
 	color: #ffffff;
 	/* text-align: center; */
 }
-.service-header-bold{
+.service-header-bold {
 	font-weight: bold;
 	font-size: 17px;
 }
