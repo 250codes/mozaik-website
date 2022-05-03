@@ -96,7 +96,7 @@ function Projects() {
 											width={400}
 											height={400}
 											className='content-image'
-											src='/images/kavumoproject/11.jpg'
+											src='/images/kavumoproject/11-min.jpg'
 											alt='project4'
 										/>
 										<div className='content-details fadeIn-top'>
