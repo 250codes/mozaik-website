@@ -11,17 +11,17 @@ function projects() {
 		{
 			title: "BPN Project",
 			image: "/images/bpn/1.jpg",
-			url: "bpn"
+			url: "Bpn"
 		},
 		{
 			title: "Kavumo Project",
 			image: "/images/kavumoproject/11.jpg",
-			url: "kavumo"
+			url: "Kavumo"
 		},
 		{
 			title: "Home Decor",
 			image: "/images/cover2.jpg",
-			url: "homeDecor"
+			url: "HomeDecor"
 		},
 		{
 			title: "Institute Francais",
@@ -31,7 +31,7 @@ function projects() {
 		{
 			title: "Trans Africa Community",
 			image: "/images/transafricacommunication/4.jpg",
-			url: "tsc"
+			url: "Tsc"
 		},
 		
 	];
