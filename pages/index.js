@@ -5,6 +5,7 @@ import Projects from "../components/Projects";
 import Testimonial from "../components/Testimonial";
 import WorkWithUs from "../components/WorkWithUs";
 import Navbar from "../components/HomeNav";
+import Trusted from "../components/Trusted";
 export default function Home() {
 	return (
 		<div>
@@ -13,6 +14,7 @@ export default function Home() {
 			<Navbar />
 			<Projects />
 			<WorkWithUs />
+			<Trusted />
 			<Testimonial />
 		</div>
 	);
