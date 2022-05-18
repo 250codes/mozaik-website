@@ -1,16 +1,37 @@
 import React from "react";
 import Image from "next/image";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
+const responsive = {
+	superLargeDesktop: {
+		// the naming can be any, depends on you.
+		breakpoint: { max: 4000, min: 3000 },
+		items: 7,
+	},
+	desktop: {
+		breakpoint: { max: 3000, min: 1024 },
+		items: 6,
+	},
+	tablet: {
+		breakpoint: { max: 1024, min: 464 },
+		items: 2,
+	},
+	mobile: {
+		breakpoint: { max: 464, min: 0 },
+		items: 1,
+	},
+};
 function Trusted() {
 	return (
 		<div className='home-project-bg pt-4 pb-4'>
 			<h2 className='text-center text-secondary'>Trusted By </h2>
 			<section id='clients' className='clients section-bg'>
 				<div className='container' data-aos='zoom-in'>
-					<div className='row'>
-						<div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
+                <Carousel responsive={responsive}>
+						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/client-1.png'
+								src='/clients/ambassade.jpg'
 								className='img-fluid'
 								width={100}
 								height={50}
@@ -18,9 +39,9 @@ function Trusted() {
 							/>
 						</div>
 
-						<div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
+						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/client-2.png'
+								src='/clients/irembo.png'
 								className='img-fluid'
 								width={100}
 								height={50}
@@ -28,9 +49,9 @@ function Trusted() {
 							/>
 						</div>
 
-						<div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
+						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/client-3.png'
+								src='/clients/bpn.png'
 								className='img-fluid'
 								width={100}
 								height={50}
@@ -38,9 +59,9 @@ function Trusted() {
 							/>
 						</div>
 
-						<div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
+						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/client-4.png'
+								src='/clients/trac.png'
 								className='img-fluid'
 								width={100}
 								height={50}
@@ -48,9 +69,9 @@ function Trusted() {
 							/>
 						</div>
 
-						<div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
+						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/client-5.png'
+								src='/clients/Zipline.png'
 								className='img-fluid'
 								width={100}
 								height={50}
@@ -58,16 +79,36 @@ function Trusted() {
 							/>
 						</div>
 
-						<div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
+						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/client-6.png'
+								src='/clients/hydroneo.jpg'
 								className='img-fluid'
 								width={100}
 								height={50}
 								alt=''
 							/>
 						</div>
-					</div>
+
+						<div className='d-flex align-items-center justify-content-center my-3'>
+							<Image
+								src='/clients/institut.jpeg'
+								className='img-fluid'
+								width={100}
+								height={50}
+								alt=''
+							/>
+						</div>
+
+						<div className='d-flex align-items-center justify-content-center my-3'>
+							<Image
+								src='/clients/bchef2.png'
+								className='img-fluid'
+								width={100}
+								height={50}
+								alt=''
+							/>
+						</div>
+                        </Carousel>
 				</div>
 			</section>
 		</div>

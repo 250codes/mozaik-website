@@ -101,16 +101,13 @@ export default function Footer() {
 							<h3>Contacts</h3>
 							<ul className='footer-contact-list'>
 								<li>
-									<span>Address:</span>KK12 <br />
+									<span>Address:</span>8 KG 680 St <br />
 									Kigali, Rwanda
 								</li>
 								<li>
 									<span>Email:</span>
-									<a
-										href='cdn-cgi/l/email-protection.html'
-										className='__cf_email__'
-										data-cfemail='640605160d100b0a240309050d084a070b09'>
-										mozaikdeveloper@gmail.com
+									<a href="mailto:mozaikconcepts@gmail.com" className="text-light">
+										mozaikconcepts@gmail.com
 									</a>
 								</li>
 								<li>
@@ -125,7 +122,7 @@ export default function Footer() {
 				<div className='container'>
 					<div className='row align-items-center'>
 						<div className='col-lg-6 col-md-6 col-sm-6'>
-							<p>Mozaik © {new Date().getFullYear()} All rights reserved</p>
+							<p>Mozaik Concepts © {new Date().getFullYear()} All rights reserved</p>
 						</div>
 						<div className='col-lg-6 col-md-6 col-sm-6'>
 							<ul>
