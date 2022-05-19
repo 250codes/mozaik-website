@@ -27,8 +27,7 @@ function Testimonial() {
 			<div className='intro'>
 				<h2 className='text-center text-secondary mt-5'>Testimonials </h2>
 				<p className='text-center'>
-					Our customers love us! Read what they have to say below. Aliquam sed
-					justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.
+					We prioritise our customers&apos; needs and we provide them the best services! Read what they have to say below.
 				</p>
 			</div>
 			<Carousel responsive={responsive}>

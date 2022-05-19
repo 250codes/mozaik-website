@@ -38,7 +38,6 @@ function Projects() {
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>Bpn</h3>
-											<p>This is a short description</p>
 										</div>
 									</a>
 								</Link>
@@ -59,7 +58,6 @@ function Projects() {
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>Home Decor</h3>
-											<p>This is a short description</p>
 										</div>
 									</a>
 								</Link>
@@ -80,7 +78,6 @@ function Projects() {
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>Institute Francais</h3>
-											<p>This is a short description</p>
 										</div>
 									</a>
 								</Link>
@@ -101,7 +98,6 @@ function Projects() {
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>Kavumo Project</h3>
-											<p>This is a short description</p>
 										</div>
 									</a>
 								</Link>
@@ -121,7 +117,6 @@ function Projects() {
 										/>
 										<div className='content-details fadeIn-top'>
 											<h3>Trans Africa Community</h3>
-											<p>This is a short description</p>
 										</div>
 									</a>
 								</Link>
