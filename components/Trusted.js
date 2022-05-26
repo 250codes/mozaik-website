@@ -28,7 +28,11 @@ function Trusted() {
 			<h2 className='text-center text-secondary'>Trusted By </h2>
 			<section id='clients' className='clients section-bg'>
 				<div className='container' data-aos='zoom-in'>
-					<Carousel responsive={responsive}>
+					<Carousel
+						responsive={responsive}
+						infinite={true}
+						autoPlay={true}
+						autoPlaySpeed={5000}>
 						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
 								src='/clients/logo/irembo.png'
