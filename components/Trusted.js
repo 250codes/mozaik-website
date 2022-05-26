@@ -31,80 +31,80 @@ function Trusted() {
 					<Carousel responsive={responsive}>
 						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/ambassade.jpg'
+								src='/clients/logo/irembo.png'
 								className='img-fluid'
-								width={150}
-								height={100}
+								width={110}
+								height={60}
 								alt=''
 							/>
 						</div>
 
 						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/irembo.png'
+								src='/clients/logo/bpn.png'
 								className='img-fluid'
-								width={150}
-								height={100}
+								width={110}
+								height={60}
 								alt=''
 							/>
 						</div>
 
 						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/bpn.png'
+								src='/clients/logo/trac.png'
 								className='img-fluid'
-								width={150}
-								height={100}
+								width={110}
+								height={60}
 								alt=''
 							/>
 						</div>
 
 						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/trac.png'
+								src='/clients/logo/Zipline.png'
 								className='img-fluid'
-								width={150}
-								height={100}
+								width={110}
+								height={60}
 								alt=''
 							/>
 						</div>
 
 						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/Zipline.png'
+								src='/clients/logo/hydroneo.jpg'
 								className='img-fluid'
-								width={150}
-								height={100}
+								width={110}
+								height={60}
 								alt=''
 							/>
 						</div>
 
 						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/hydroneo.jpg'
+								src='/clients/logo/institut.jpg'
 								className='img-fluid'
-								width={150}
-								height={100}
+								width={110}
+								height={60}
 								alt=''
 							/>
 						</div>
 
 						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/institut.jpeg'
+								src='/clients/logo/bchef2.jpg'
 								className='img-fluid'
-								width={150}
-								height={100}
+								width={110}
+								height={60}
 								alt=''
 							/>
 						</div>
 
 						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
-								src='/clients/bchef2.png'
+								src='/clients/logo/ambassade.jpg'
 								className='img-fluid'
-								width={150}
-								height={100}
+								width={110}
+								height={60}
 								alt=''
 							/>
 						</div>

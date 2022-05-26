@@ -13,7 +13,7 @@ function about() {
 			<Navbar />
 			<AboutIntro name='ABOUT US' />
 			<Vision />
-			<Team />
+			{/* <Team /> */}
 		</div>
 	);
 }
