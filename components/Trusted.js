@@ -32,7 +32,7 @@ function Trusted() {
 						responsive={responsive}
 						infinite={true}
 						autoPlay={true}
-						autoPlaySpeed={5000}>
+						autoPlaySpeed={3000}>
 						<div className='d-flex align-items-center justify-content-center my-3'>
 							<Image
 								src='/clients/logo/irembo.png'
