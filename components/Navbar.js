@@ -124,6 +124,11 @@ function Navbar() {
 								Contact
 							</a>
 						</li>
+						<li onClick={() => setMobile(false)}>
+							<a className='nav-link scrollto' href='https://mozaik-promotion.vercel.app/'>
+								eDesign
+							</a>
+						</li>
 					</ul>
 					<i
 						className={
